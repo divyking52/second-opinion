@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecondOpinion24 – Medical Experts | Clarity before treatment. Confidence before action.</title>
+<meta name="description" content="Get expert medical advice, transparent treatment options, and insurance guidance — all in one place. Connect with 100+ verified super-specialists.">
+<meta name="theme-color" content="#dc2626">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://admin.storebox.ai">
+<link rel="preload" as="image" href="https://admin.storebox.ai/media/e7227689-bcb9-47df-8af9-478fcdd3bc3f/08c4bf86-76b5-4827-be23-6c04106cce00/Second-Opinion-24.webp" fetchpriority="high">
+
+<style>
+/* =========================================================
+   TOKENS — taken from secondopinion24.com
+   ========================================================= */
+@property --ang { syntax: '<angle>'; inherits: false; initial-value: 0deg; }
+
+:root{
+  --red:#dc2626; --red-dark:#b91c1c; --red-soft:#fee2e2; --red-100:#fecaca; --red-300:#fca5a5;
+  --ink:#111827; --ink-2:#0f172a;
+  --g50:#f9fafb; --g100:#f3f4f6; --g200:#e5e7eb; --g300:#d1d5db; --g400:#9ca3af;
+  --g500:#6b7280; --g600:#4b5563; --g700:#374151; --g800:#1f2937;
+  --pink:#fff1f2; --blue:#eff6ff; --yellow:#fffbeb; --mint:#ecfdf5; --lav:#f5f3ff; --peach:#fff7ed; --sky:#f1f8fe;
+  --royal:#2563eb; --navy:#1e3a8a; --green:#16a34a;
+
+  --serif:'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans:'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+
+  --ease:cubic-bezier(.16,1,.3,1);
+  --ease-io:cubic-bezier(.65,0,.35,1);
+  --r-xl:32px; --r-lg:24px; --r-md:18px; --r-sm:12px;
+  --sh-1:0 1px 2px rgba(17,24,39,.04), 0 10px 30px -12px rgba(17,24,39,.14);
+  --sh-2:0 2px 6px rgba(17,24,39,.05), 0 34px 70px -24px rgba(17,24,39,.28);
+  --sh-red:0 16px 34px -12px rgba(220,38,38,.55);
+  --line:rgba(17,24,39,.08);
+  --header-h:78px;
+  --pad:clamp(1.25rem, 4vw, 2.5rem);
+  --sec:clamp(5rem, 10vw, 8.5rem);
+}
+
+/* =========================================================
+   BASE
+   ========================================================= */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--sans);font-size:1rem;line-height:1.65;color:var(--ink);background:#fff;overflow-x:clip;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,svg,canvas{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit;text-decoration:none}
+button,input,textarea{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer}
+ul{list-style:none}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.08;letter-spacing:-.02em;color:var(--ink)}
+::selection{background:var(--red);color:#fff}
+[id]{scroll-margin-top:calc(var(--header-h) + 8px)}
+[tabindex="-1"]:focus{outline:none}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:6px}
+.dark :focus-visible,.cta :focus-visible,.footer :focus-visible{outline-color:#fff}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:fixed;left:1rem;top:-100px;z-index:10001;background:var(--ink);color:#fff;padding:.75rem 1.1rem;border-radius:10px;font-weight:700;transition:top .3s var(--ease)}
+.skip:focus{top:1rem}
+.container{width:100%;max-width:1280px;margin-inline:auto;padding-inline:var(--pad)}
+section{position:relative}
+
+/* =========================================================
+   TYPE + SHARED UI
+   ========================================================= */
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font:700 .78rem/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 0 0 rgba(220,38,38,.45);animation:ping 2.4s var(--ease) infinite}
+.dark .eyebrow{color:var(--red-300)}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(220,38,38,.45)}70%,100%{box-shadow:0 0 0 10px rgba(220,38,38,0)}}
+.h-sec{font-size:clamp(2.25rem,4.6vw,3.9rem);margin-top:1.1rem}
+.h-sec em{font-style:italic;color:var(--red)}
+.dark .h-sec{color:#fff}
+.dark .h-sec em{color:var(--red-300)}
+.lead{font-size:clamp(1.05rem,1.4vw,1.2rem);color:var(--g600);max-width:46rem;margin-top:1.25rem}
+.dark .lead{color:var(--g400)}
+.sec-head{text-align:center;max-width:52rem;margin:0 auto clamp(3rem,6vw,4.5rem)}
+.sec-head .lead{margin-inline:auto}
+
+/* Buttons */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.65rem;padding:1rem 1.65rem;border-radius:999px;font:700 1rem/1.1 var(--sans);letter-spacing:-.01em;border:1.5px solid transparent;cursor:pointer;isolation:isolate;overflow:hidden;white-space:nowrap;
+  transform:translate3d(var(--mgx,0px),var(--mgy,0px),0);transition:transform .6s var(--ease),box-shadow .4s,background-color .3s,color .3s,border-color .3s}
+.btn > span{position:relative;z-index:1;display:inline-flex;transform:translate3d(calc(var(--mgx,0px)*.35),calc(var(--mgy,0px)*.35),0);transition:transform .6s var(--ease)}
+.btn svg{width:18px;height:18px;transition:transform .5s var(--ease)}
+.btn:hover svg{transform:translateX(4px)}
+.btn::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.38) 50%,transparent 70%);transform:translateX(-120%);transition:transform .9s var(--ease)}
+.btn:hover::after{transform:translateX(120%)}
+.btn-primary{background:var(--red);color:#fff;box-shadow:var(--sh-red)}
+.btn-primary:hover{background:var(--red-dark)}
+.btn-outline{background:rgba(255,255,255,.7);border-color:var(--g300);color:var(--g700)}
+.btn-outline:hover{border-color:var(--red);color:var(--red)}
+.btn-white{background:#fff;color:var(--red);box-shadow:0 18px 40px -16px rgba(0,0,0,.4)}
+.btn-white:hover{background:var(--g100)}
+.btn-ghost{background:transparent;border-color:rgba(255,255,255,.85);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-ghost::after,.btn-outline::after{background:linear-gradient(110deg,transparent 30%,rgba(220,38,38,.10) 50%,transparent 70%)}
+.btn-sm{padding:.7rem 1.2rem;font-size:.95rem}
+.btn-lg{padding:1.1rem 1.9rem;font-size:1.05rem}
+
+/* Text-link with arrow */
+.tlink{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;color:var(--red-dark)}
+.tlink svg{width:16px;height:16px;transition:transform .5s var(--ease)}
+.tlink:hover svg{transform:translateX(5px)}
+
+/* Logo (official text logo, preserved) */
+.logo{display:inline-flex;flex-direction:column;line-height:1}
+.logo-text{display:flex;align-items:baseline;font-family:var(--sans)}
+.logo-main{font-size:1.6rem;font-weight:800;color:var(--ink);letter-spacing:-.02em}
+.logo-24{font-size:2.1rem;font-weight:900;color:var(--red);letter-spacing:-.02em;display:inline-block;transition:transform .5s var(--ease)}
+.logo:hover .logo-24{transform:translateY(-2px) scale(1.06)}
+.logo-tagline{font-size:.62rem;font-weight:700;color:var(--g500);letter-spacing:.14em;text-transform:uppercase;margin-top:3px}
+
+/* =========================================================
+   REVEALS (only when JS is running)
+   ========================================================= */
+.js .reveal{opacity:0;transform:translate3d(0,42px,0);transition-property:opacity,transform,translate,box-shadow;transition-duration:1s,1.2s,.6s,.5s;transition-timing-function:var(--ease);transition-delay:calc(var(--i,0) * 90ms + var(--d,0ms)),calc(var(--i,0) * 90ms + var(--d,0ms)),0s,0s}
+.js .reveal[data-reveal="flip"]{transform:perspective(1100px) translate3d(0,80px,0) rotateX(-26deg);transform-origin:50% 0}
+.js .reveal[data-reveal="left"]{transform:translate3d(-56px,0,0)}
+.js .reveal[data-reveal="right"]{transform:translate3d(56px,0,0)}
+.js .reveal[data-reveal="zoom"]{transform:scale(.9)}
+.js .reveal.is-in{opacity:1;transform:none}
+.js [data-split] .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em;margin-bottom:-.12em}
+.js [data-split] .w > span{display:inline-block;transform:translate3d(0,112%,0) rotate(5deg);transform-origin:0 100%;transition:transform 1.1s var(--ease);transition-delay:calc(var(--wi,0) * 42ms + var(--d,0ms))}
+.js [data-split].is-in .w > span{transform:none}
+
+/* =========================================================
+   LOADER
+   ========================================================= */
+.loader{position:fixed;inset:0;z-index:10000;display:grid;place-items:center;background:#fff;transition:transform 1s var(--ease-io) .05s,visibility 0s 1.1s;animation:loaderFailsafe .01s 3.2s forwards}
+@keyframes loaderFailsafe{to{visibility:hidden;opacity:0}}
+.loader-inner{display:grid;justify-items:center;gap:1.1rem}
+.loader .logo-text span{display:inline-block;animation:loaderUp .9s var(--ease) both}
+.loader .logo-main{font-size:clamp(2rem,6vw,3rem)}
+.loader .logo-24{font-size:clamp(2.6rem,8vw,4rem);animation-delay:.18s!important}
+.loader-bar{width:180px;height:2px;background:var(--g200);border-radius:2px;overflow:hidden}
+.loader-bar i{display:block;height:100%;background:var(--red);transform-origin:0 50%;animation:loaderBar 1s var(--ease-io) both}
+@keyframes loaderUp{from{opacity:0;transform:translateY(60%)}}
+@keyframes loaderBar{from{transform:scaleX(0)}}
+.is-loaded .loader{transform:translateY(-100%);visibility:hidden}
+html:not(.js) .loader,.rm .loader{display:none}
+
+/* =========================================================
+   CUSTOM CURSOR (fine pointers only)
+   ========================================================= */
+.cursor{position:fixed;left:0;top:0;z-index:9998;pointer-events:none;opacity:0;transition:opacity .3s}
+.cursor.is-on{opacity:1}
+.cursor-ring{position:absolute;width:38px;height:38px;margin:-19px 0 0 -19px;border:1.5px solid rgba(220,38,38,.55);border-radius:50%;transition:width .35s var(--ease),height .35s var(--ease),margin .35s var(--ease),background-color .35s,border-color .35s}
+.cursor-dot{position:absolute;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;background:var(--red)}
+.cursor.is-hover .cursor-ring{width:64px;height:64px;margin:-32px 0 0 -32px;background:rgba(220,38,38,.08);border-color:rgba(220,38,38,.35)}
+.cursor.is-down .cursor-ring{width:30px;height:30px;margin:-15px 0 0 -15px}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+.site-header{position:fixed;inset:0 0 auto;z-index:1000;transition:background-color .4s,box-shadow .4s,border-color .4s;border-bottom:1px solid transparent}
+.site-header.is-scrolled,.menu-open .site-header{background:rgba(255,255,255,.86);-webkit-backdrop-filter:saturate(160%) blur(14px);backdrop-filter:saturate(160%) blur(14px);border-bottom-color:var(--g100);box-shadow:0 8px 30px -18px rgba(17,24,39,.25)}
+.header-inner{display:flex;align-items:center;gap:1.5rem;height:var(--header-h);transition:height .4s var(--ease)}
+.is-scrolled .header-inner{height:66px}
+.nav{position:relative;display:none;align-items:center;gap:.25rem;margin-left:auto;padding:.35rem;border-radius:999px;background:rgba(255,255,255,.55);border:1px solid var(--line)}
+.nav a{position:relative;z-index:1;padding:.6rem 1rem;font-size:.97rem;font-weight:700;color:var(--g700);border-radius:999px;transition:color .3s}
+.nav a:hover,.nav a.is-active{color:var(--red)}
+.nav-pill{position:absolute;left:0;top:.35rem;bottom:.35rem;width:0;border-radius:999px;background:#fff;box-shadow:0 4px 14px -6px rgba(17,24,39,.22),inset 0 0 0 1px rgba(220,38,38,.14);opacity:0;transition:transform .55s var(--ease),width .55s var(--ease),opacity .3s}
+.header-actions{display:none;align-items:center;gap:.65rem}
+.menu-btn{position:relative;margin-left:auto;width:46px;height:46px;border-radius:50%;background:#fff;border:1px solid var(--g200);display:grid;place-items:center}
+.menu-btn span{position:absolute;left:13px;right:13px;height:2px;border-radius:2px;background:var(--ink);transition:transform .5s var(--ease),top .5s var(--ease)}
+.menu-btn span:nth-child(1){top:18px}
+.menu-btn span:nth-child(2){top:26px}
+.menu-open .menu-btn span:nth-child(1){top:22px;transform:rotate(45deg)}
+.menu-open .menu-btn span:nth-child(2){top:22px;transform:rotate(-45deg)}
+.scroll-progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;overflow:hidden}
+.scroll-progress i{display:block;height:100%;background:linear-gradient(90deg,var(--red),#f87171);transform-origin:0 50%;transform:scaleX(0)}
+@media (min-width:1080px){.nav,.header-actions{display:flex}.menu-btn{display:none}}
+
+/* Mobile menu */
+.mobile-menu{position:fixed;inset:0;z-index:999;background:#fff;padding:calc(var(--header-h) + 2rem) var(--pad) 2rem;display:flex;flex-direction:column;overflow-y:auto;visibility:hidden;opacity:0;transition:opacity .45s var(--ease),visibility 0s .45s}
+.menu-open .mobile-menu{visibility:visible;opacity:1;transition:opacity .45s var(--ease)}
+.menu-open body{overflow:hidden}
+.mobile-menu nav a{display:flex;align-items:baseline;gap:1rem;padding:.7rem 0;font:600 clamp(2rem,8vw,2.8rem)/1.1 var(--serif);color:var(--ink);border-bottom:1px solid var(--g100);transform:translateY(30px);opacity:0;transition:transform .7s var(--ease),opacity .7s var(--ease),color .3s;transition-delay:calc(var(--i) * 55ms)}
+.mobile-menu nav a small{font:700 .75rem/1 var(--sans);color:var(--red);letter-spacing:.1em}
+.mobile-menu nav a:hover{color:var(--red)}
+.menu-open .mobile-menu nav a{transform:none;opacity:1}
+.mobile-menu-actions{display:grid;gap:.75rem;margin-top:2rem}
+.mobile-menu-actions .btn{width:100%}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+.hero{min-height:100vh;min-height:100svh;padding:calc(var(--header-h) + clamp(2rem,5vw,4rem)) 0 clamp(4rem,7vw,6rem);display:flex;align-items:center;overflow:clip;isolation:isolate}
+.hero-bg{position:absolute;inset:0;z-index:-1;pointer-events:none}
+.hero-bg::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(circle at 10% 8%,rgba(255,228,230,.85),transparent 42%),
+  radial-gradient(circle at 92% 4%,rgba(219,234,254,.85),transparent 46%),
+  radial-gradient(circle at 55% 105%,rgba(237,233,254,.7),transparent 52%),#fff}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(17,24,39,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(17,24,39,.055) 1px,transparent 1px);background-size:64px 64px;-webkit-mask:radial-gradient(ellipse 70% 60% at 60% 40%,#000 30%,transparent 75%);mask:radial-gradient(ellipse 70% 60% at 60% 40%,#000 30%,transparent 75%)}
+.hero-floor{position:absolute;left:-20%;right:-20%;bottom:-2%;height:46%;perspective:520px;-webkit-mask:linear-gradient(to top,#000 10%,transparent 90%);mask:linear-gradient(to top,#000 10%,transparent 90%)}
+.hero-floor::before{content:"";position:absolute;inset:0 0 -60%;transform:rotateX(68deg);transform-origin:50% 100%;background-image:linear-gradient(rgba(220,38,38,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(220,38,38,.18) 1px,transparent 1px);background-size:70px 70px;animation:floor 6s linear infinite}
+@keyframes floor{to{background-position:0 70px}}
+.hero-spot{position:absolute;width:640px;height:640px;left:var(--gx,70%);top:var(--gy,40%);transform:translate(-50%,-50%);background:radial-gradient(circle,rgba(220,38,38,.10),transparent 62%);transition:left .6s var(--ease),top .6s var(--ease)}
+.hero-inner{display:grid;gap:clamp(3rem,6vw,4rem);align-items:center}
+@media (min-width:1024px){.hero-inner{grid-template-columns:1.02fr 1fr}}
+@media (min-width:1024px){.hero-copy{transform:translate3d(0,calc(var(--hp,0) * -70px),0);opacity:calc(1 - var(--hp,0) * 1.15)}}
+@media (max-width:1023px){.hero{--hp:0!important}}
+.hero-badge{display:inline-flex;align-items:center;gap:.6rem;padding:.5rem 1rem .5rem .55rem;border-radius:999px;background:rgba(255,255,255,.8);border:1px solid rgba(220,38,38,.18);box-shadow:var(--sh-1);font-weight:600;font-size:.88rem;color:var(--red-dark)}
+.hero-badge b{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--red-soft);color:var(--red)}
+.hero-badge b svg{width:14px;height:14px}
+.hero h1{font-size:clamp(2.7rem,6.3vw,5.6rem);line-height:1.02;letter-spacing:-.03em;margin:1.4rem 0 1.5rem}
+.hero h1 .line{display:block}
+.hero h1 .accent{color:var(--red)}
+.hero-desc{font-size:clamp(1.05rem,1.5vw,1.22rem);color:var(--g600);max-width:36rem;line-height:1.75}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2.2rem}
+.hero-meta{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-top:2.2rem;color:var(--g600);font-size:.9rem;font-weight:600}
+.hero-meta li{display:inline-flex;align-items:center;gap:.5rem}
+.hero-meta svg{width:18px;height:18px;color:var(--red)}
+
+/* Hero 3D stage */
+.hero-stage{position:relative;width:100%;max-width:620px;margin-inline:auto;aspect-ratio:1/1.04;perspective:1400px;transform:translate3d(0,calc(var(--hp,0) * -50px),0) scale(calc(1 - var(--hp,0) * .08))}
+.stage-inner{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(calc(var(--hp,0) * 24deg - var(--sy,0) * 7deg)) rotateY(calc(var(--sx,0) * 10deg))}
+.layer{position:absolute;transform:translateZ(var(--z,0px));transform-style:preserve-3d}
+.helix{left:36%;top:-6%;width:70%;height:112%;--z:-110px}
+.helix canvas{width:100%;height:100%}
+.orbits{inset:4%;--z:-50px}
+.orbit{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(220,38,38,.22);transform:rotateX(74deg) rotateY(var(--t,0deg)) rotateZ(0);animation:orbit var(--s,22s) linear infinite}
+.orbit:nth-child(2){inset:9%;border-color:rgba(30,58,138,.18);--t:-18deg;--s:30s;animation-direction:reverse}
+.orbit:nth-child(3){inset:-6%;border-style:dashed;border-color:rgba(17,24,39,.12);--t:14deg;--s:46s}
+.orbit i{position:absolute;top:50%;left:-5px;width:10px;height:10px;margin-top:-5px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(220,38,38,.15),0 0 18px rgba(220,38,38,.6)}
+.orbit:nth-child(2) i{left:auto;right:-4px;width:8px;height:8px;background:var(--navy);box-shadow:0 0 0 4px rgba(30,58,138,.14)}
+@keyframes orbit{to{transform:rotateX(74deg) rotateY(var(--t,0deg)) rotateZ(360deg)}}
+.hero-photo{left:3%;top:14%;width:75%;height:60%;--z:40px;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--sh-2);background:var(--g100)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:58% 50%;transform:scale(1.06)}
+.hero-photo::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.5);background:linear-gradient(180deg,transparent 55%,rgba(17,24,39,.22))}
+.scanline{position:absolute;left:0;right:0;top:0;height:30%;background:linear-gradient(180deg,transparent,rgba(220,38,38,.16) 85%,rgba(255,255,255,.75) 100%);mix-blend-mode:screen;animation:scan 4.6s var(--ease-io) infinite;z-index:1}
+.scanline::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1.5px;background:rgba(255,255,255,.95);box-shadow:0 0 14px 2px rgba(220,38,38,.6)}
+@keyframes scan{0%{transform:translateY(-100%)}60%,100%{transform:translateY(340%)}}
+.hud{position:absolute;width:22px;height:22px;border:2px solid #fff;z-index:2;opacity:.9}
+.hud.tl{left:14px;top:14px;border-right:0;border-bottom:0;border-radius:8px 0 0 0}
+.hud.tr{right:14px;top:14px;border-left:0;border-bottom:0;border-radius:0 8px 0 0}
+.hud.bl{left:14px;bottom:14px;border-right:0;border-top:0;border-radius:0 0 0 8px}
+.hud.br{right:14px;bottom:14px;border-left:0;border-top:0;border-radius:0 0 8px 0}
+.panel{background:rgba(255,255,255,.93);border:1px solid rgba(255,255,255,.9);border-radius:var(--r-md);box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 24px 50px -22px rgba(17,24,39,.38);animation:bob 6s ease-in-out infinite;animation-delay:var(--bd,0s)}
+@keyframes bob{50%{transform:translateY(-10px)}}
+.p-ecg{right:1%;top:1%;width:52%;--z:120px}
+.p-ecg .panel{padding:1rem 1.1rem .8rem}
+.p-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--g500)}
+.p-live{display:inline-flex;align-items:center;gap:.35rem;color:var(--red-dark)}
+.p-live::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;animation:blink 1.4s steps(2) infinite}
+@keyframes blink{50%{opacity:.25}}
+.p-title{font:700 1rem/1.25 var(--sans);color:var(--ink);margin-top:.45rem}
+.p-sub{font-size:.8rem;color:var(--g600);margin-top:.1rem}
+.ecg{width:100%;height:46px;margin-top:.4rem;overflow:visible}
+.ecg path{fill:none;stroke:var(--red);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:90 330;animation:ecg 2.6s linear infinite}
+.ecg .ecg-bg{stroke:rgba(220,38,38,.14);stroke-dasharray:none;animation:none}
+@keyframes ecg{from{stroke-dashoffset:420}to{stroke-dashoffset:0}}
+.p-claim{left:-3%;bottom:8%;--z:160px}
+.p-claim .panel{display:flex;align-items:center;gap:.9rem;padding:.9rem 1.25rem .9rem .9rem;--bd:-2s}
+.gauge{width:58px;height:58px;transform:rotate(-90deg)}
+.gauge circle{fill:none;stroke-width:5}
+.gauge .g-bg{stroke:#dcfce7}
+.gauge .g-fg{stroke:var(--green);stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:var(--go,6);transition:stroke-dashoffset 2s var(--ease)}
+.p-claim strong{display:block;font:800 1.65rem/1 var(--sans);color:var(--green);letter-spacing:-.02em}
+.p-claim .lbl{display:block;margin-top:.2rem;font-size:.82rem;font-weight:600;color:var(--g700)}
+.p-secure{right:-2%;bottom:25%;--z:90px}
+.p-secure .panel{display:flex;align-items:center;gap:.65rem;padding:.7rem 1rem .7rem .7rem;--bd:-4s;font-size:.85rem;font-weight:700}
+.p-secure b{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--blue);color:var(--navy)}
+.p-secure b svg{width:18px;height:18px}
+.scroll-cue{position:absolute;left:50%;bottom:1.4rem;transform:translateX(-50%);display:none;flex-direction:column;align-items:center;gap:.5rem;font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--g500);opacity:calc(1 - var(--hp,0) * 3)}
+.scroll-cue i{width:22px;height:36px;border:1.5px solid var(--g300);border-radius:12px;position:relative}
+.scroll-cue i::after{content:"";position:absolute;left:50%;top:7px;width:3px;height:7px;margin-left:-1.5px;border-radius:2px;background:var(--red);animation:cue 1.8s var(--ease) infinite}
+@keyframes cue{60%{transform:translateY(11px);opacity:0}100%{opacity:0}}
+@media (min-width:1024px) and (min-height:760px){.scroll-cue{display:flex}}
+@media (max-width:640px){
+  .hero-stage{aspect-ratio:1/1.12}
+  .hero-photo{top:22%;width:86%;left:2%;height:54%}
+  .p-ecg{width:62%;right:-1%;top:-1%}
+  .p-title{font-size:.9rem}.p-sub{display:none}
+  .p-claim{bottom:3%;left:0}
+  .p-claim strong{font-size:1.35rem}
+  .gauge{width:46px;height:46px}
+  .p-secure{bottom:17%;right:-1%}
+  .p-secure .panel{font-size:.75rem}
+}
+
+/* =========================================================
+   STATS
+   ========================================================= */
+.stats{padding:0 0 clamp(4rem,7vw,6rem)}
+.stats-band{position:relative;display:grid;grid-template-columns:1fr;border-radius:var(--r-xl);background:#fff;border:1px solid var(--g200);box-shadow:var(--sh-1);overflow:hidden}
+@media (min-width:640px){.stats-band{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1024px){.stats-band{grid-template-columns:repeat(4,1fr)}}
+.stat{position:relative;padding:2.2rem 1.8rem;display:grid;grid-template-columns:auto 1fr;gap:.2rem 1.1rem;align-items:center}
+.stat + .stat{border-top:1px solid var(--g100)}
+@media (min-width:640px){.stat + .stat{border-top:0}.stat:nth-child(n+3){border-top:1px solid var(--g100)}.stat:nth-child(even){border-left:1px solid var(--g100)}}
+@media (min-width:1024px){.stat:nth-child(n+3){border-top:0}.stat + .stat{border-left:1px solid var(--g100)}}
+.stat-icon{grid-row:span 2;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:rgba(220,38,38,.1);color:var(--red);position:relative}
+.stat-icon svg{width:26px;height:26px}
+.stat-icon::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:1.5px solid transparent;border-top-color:var(--red);opacity:0;transition:opacity .6s}
+.stats .is-in .stat-icon::after{opacity:.6;animation:spin 2.4s var(--ease-io) 1 forwards}
+@keyframes spin{to{transform:rotate(360deg)}}
+.stat-num{font:800 clamp(2rem,3vw,2.6rem)/1 var(--sans);letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums}
+.stat-num small{font-size:.6em;color:var(--red);margin-left:.08em}
+.stat-label{font-size:.92rem;font-weight:600;color:var(--g600)}
+.stats-band::after{content:"";position:absolute;top:0;bottom:0;left:0;width:30%;background:linear-gradient(90deg,transparent,rgba(220,38,38,.07),transparent);transform:translateX(-110%);pointer-events:none}
+.stats-band.is-in::after{animation:beam 2.4s var(--ease-io) .3s 1 both}
+@keyframes beam{to{transform:translateX(440%)}}
+
+/* =========================================================
+   SERVICES / SPECIALTIES
+   ========================================================= */
+.services{padding:var(--sec) 0;background:
+  radial-gradient(circle at top left,rgba(255,228,230,.45),transparent 55%),
+  radial-gradient(circle at top right,rgba(219,234,254,.45),transparent 55%),
+  radial-gradient(circle at bottom center,rgba(237,233,254,.45),transparent 55%),#fff;overflow:clip}
+.spec-grid{display:grid;gap:1.5rem}
+@media (min-width:700px){.spec-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1080px){.spec-grid{grid-template-columns:repeat(3,1fr);gap:1.75rem}}
+.spec-card{--tint:#fff;position:relative;display:flex;flex-direction:column;height:100%;min-height:330px;padding:2rem 2rem 1.8rem;border-radius:var(--r-lg);background:#fff;border:1px solid var(--g200);box-shadow:var(--sh-1);transform-style:preserve-3d;
+  transform:perspective(1000px) translateY(var(--lift,0px)) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .7s var(--ease),box-shadow .5s,background-color .5s,border-color .5s}
+.spec-card.is-tilting{transition:transform .12s linear,box-shadow .5s,background-color .5s,border-color .5s}
+.spec-card:hover,.spec-card:focus-visible{--lift:-6px;background:var(--tint);border-color:transparent;box-shadow:var(--sh-2)}
+.spec-card[data-tint="pink"]{--tint:var(--pink)}
+.spec-card[data-tint="blue"]{--tint:var(--blue)}
+.spec-card[data-tint="yellow"]{--tint:var(--yellow)}
+.spec-card[data-tint="mint"]{--tint:var(--mint)}
+.spec-card[data-tint="lav"]{--tint:var(--lav)}
+.spec-card[data-tint="peach"]{--tint:var(--peach)}
+.spec-card::before{content:"";position:absolute;inset:-1px;border-radius:inherit;padding:1.5px;background:conic-gradient(from var(--ang),transparent 0 55%,rgba(220,38,38,.9) 72%,#fb7185 82%,transparent 95%);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:opacity .5s;pointer-events:none}
+.spec-card:hover::before,.spec-card:focus-visible::before{opacity:1;animation:ang 3.2s linear infinite}
+@keyframes ang{to{--ang:360deg}}
+.spec-glare{position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(420px circle at var(--mx,50%) var(--my,0%),rgba(255,255,255,.85),transparent 45%);opacity:0;transition:opacity .4s;mix-blend-mode:soft-light}
+.spec-card:hover .spec-glare{opacity:1}
+.spec-top{display:flex;align-items:flex-start;justify-content:space-between;transform:translateZ(40px)}
+.spec-icon{width:64px;height:64px;border-radius:16px;display:grid;place-items:center;background:rgba(17,24,39,.06);color:var(--ink);transition:transform .6s var(--ease),background-color .4s,color .4s}
+.spec-icon svg{width:30px;height:30px;stroke-linecap:round;stroke-linejoin:round}
+.spec-card:hover .spec-icon{transform:scale(1.1) rotate(-4deg);background:var(--red);color:#fff}
+.spec-num{font:700 .8rem/1 var(--sans);letter-spacing:.14em;color:var(--g400)}
+.spec-title{font-family:var(--sans);font-size:1.4rem;font-weight:800;letter-spacing:-.02em;margin:1.6rem 0 .6rem;transform:translateZ(30px);transition:color .4s}
+.spec-card:hover .spec-title{color:var(--red)}
+.spec-body{display:grid;transform:translateZ(22px)}
+.spec-body > *{grid-area:1/1;transition:opacity .5s var(--ease),transform .6s var(--ease)}
+.spec-desc{color:var(--g600);line-height:1.65}
+.spec-list{display:grid;gap:.4rem;font-size:.92rem;font-weight:600;color:var(--g700)}
+.spec-list li{display:flex;align-items:center;gap:.55rem}
+.spec-list li::before{content:"";width:6px;height:6px;border-radius:2px;background:var(--red);transform:rotate(45deg);flex:none}
+@media (hover:hover){
+  .spec-list{opacity:0;transform:translateY(14px)}
+  .spec-card:hover .spec-desc,.spec-card:focus-visible .spec-desc{opacity:0;transform:translateY(-14px)}
+  .spec-card:hover .spec-list,.spec-card:focus-visible .spec-list{opacity:1;transform:none}
+  .spec-card:hover .spec-list li{animation:liIn .6s var(--ease) both}
+  .spec-card:hover .spec-list li:nth-child(2){animation-delay:.05s}
+  .spec-card:hover .spec-list li:nth-child(3){animation-delay:.1s}
+  .spec-card:hover .spec-list li:nth-child(4){animation-delay:.15s}
+}
+@media (hover:none){.spec-body > *{grid-area:auto}.spec-list{margin-top:1rem}}
+@keyframes liIn{from{opacity:0;transform:translateX(-10px)}}
+.spec-link{margin-top:auto;padding-top:1.4rem;display:inline-flex;align-items:center;gap:.5rem;font-weight:700;color:var(--red-dark);transform:translateZ(26px)}
+.spec-link svg{width:16px;height:16px;transition:transform .5s var(--ease)}
+.spec-card:hover .spec-link svg{transform:translateX(6px)}
+.spec-ghost{position:absolute;right:1.2rem;bottom:1.2rem;width:110px;height:110px;color:var(--red);opacity:.0;transition:opacity .5s;pointer-events:none}
+.spec-ghost path{fill:none;stroke:currentColor;stroke-width:.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.4s var(--ease)}
+.spec-card:hover .spec-ghost{opacity:.22}
+.spec-card:hover .spec-ghost path{stroke-dashoffset:0}
+.also{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem;margin-top:2.5rem;padding:1.1rem 1.1rem 1.1rem 1.6rem;border-radius:999px;background:rgba(255,255,255,.75);border:1px solid var(--g200)}
+.also-label{font-weight:700;font-size:.9rem;color:var(--g700)}
+.marquee{flex:1 1 320px;overflow:hidden;-webkit-mask:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.marquee-track{display:flex;width:max-content;animation:marq 26s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-track span{margin-right:.6rem;padding:.45rem .9rem;border-radius:999px;background:#fff;border:1px solid var(--g200);font-size:.85rem;font-weight:600;color:var(--g700);white-space:nowrap}
+@keyframes marq{to{transform:translateX(-50%)}}
+@media (max-width:700px){.also{border-radius:var(--r-lg)}}
+
+/* =========================================================
+   WHY CHOOSE US
+   ========================================================= */
+.why{padding:var(--sec) 0;background:#fff;overflow:clip}
+.why-grid{display:grid;gap:1.25rem;transform:perspective(1800px) rotateX(calc((1 - var(--wp,1)) * 16deg)) translateY(calc((1 - var(--wp,1)) * 40px));transform-origin:50% 100%}
+@media (min-width:700px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1080px){.why-grid{grid-template-columns:repeat(4,1fr)}}
+.feat{position:relative;padding:1.4rem 1.6rem 2rem;border-radius:var(--r-lg);text-align:center;overflow:hidden;box-shadow:0 18px 40px -20px rgba(17,24,39,.18);transition:translate .6s var(--ease),box-shadow .5s}
+.feat:hover{translate:0 -8px;box-shadow:var(--sh-2)}
+.feat-pink{background:var(--pink)}.feat-blue{background:var(--blue)}.feat-yellow{background:var(--yellow)}.feat-mint{background:var(--mint)}
+.feat h3{font-family:var(--sans);font-size:1.25rem;font-weight:800;letter-spacing:-.02em;margin-top:.4rem}
+.feat p{color:var(--g600);margin-top:.5rem;line-height:1.6}
+.viz{width:100%;max-width:220px;margin:0 auto;aspect-ratio:200/160;overflow:visible}
+.viz .ring,.viz .lock,.viz .arc,.viz .hand,.viz .hand2,.viz .mer,.viz .node,.viz .seal-rot{transform-box:fill-box;transform-origin:center}
+.viz .stroke{fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round}
+.viz .draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.8s var(--ease) .3s}
+.is-in .viz .draw{stroke-dashoffset:0}
+.v-shield{color:var(--red)}
+.v-shield .ring{fill:none;stroke:rgba(220,38,38,.35);stroke-width:1.2;stroke-dasharray:3 7;animation:spin 18s linear infinite}
+.v-shield .ring2{fill:none;stroke:rgba(220,38,38,.14);stroke-width:12}
+.v-shield .lock{animation:lockPulse 2.8s ease-in-out infinite}
+@keyframes lockPulse{50%{transform:scale(1.06)}}
+.cipher{margin:.1rem auto .9rem;max-width:200px;overflow:hidden;font:600 .68rem/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.18em;color:rgba(185,28,28,.55);-webkit-mask:linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent);mask:linear-gradient(90deg,transparent,#000 20%,#000 80%,transparent)}
+.cipher span{display:inline-block;white-space:pre;animation:marq 9s linear infinite}
+.v-clock{color:var(--navy)}
+.v-clock .ticks{fill:none;stroke:rgba(30,58,138,.35);stroke-width:5;stroke-dasharray:1 5.07}
+.v-clock .track{fill:none;stroke:rgba(30,58,138,.1);stroke-width:6}
+.v-clock .arc{fill:none;stroke:var(--royal);stroke-width:6;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2.2s var(--ease) .3s;transform:rotate(-90deg)}
+.is-in .v-clock .arc{stroke-dashoffset:.28}
+.v-clock .hand{animation:spin 3s linear infinite}
+.v-clock .hand2{animation:spin 36s linear infinite}
+.v-tag{display:inline-block;margin:-.4rem 0 .4rem;padding:.3rem .7rem;border-radius:999px;background:#fff;font:800 .78rem/1 var(--sans);color:var(--navy);box-shadow:var(--sh-1)}
+.v-globe{color:#a16207}
+.v-globe .o{fill:rgba(255,255,255,.7);stroke:rgba(161,98,7,.45);stroke-width:1.4}
+.v-globe .lat{fill:none;stroke:rgba(161,98,7,.25);stroke-width:1}
+.v-globe .mer{fill:none;stroke:rgba(161,98,7,.4);stroke-width:1.2;animation:mer 6s linear infinite}
+.v-globe .mer:nth-of-type(2){animation-delay:-2s}
+.v-globe .mer:nth-of-type(3){animation-delay:-4s}
+@keyframes mer{0%{transform:scaleX(1)}25%{transform:scaleX(.5)}50%{transform:scaleX(.02)}75%{transform:scaleX(.5)}100%{transform:scaleX(1)}}
+.v-globe .arcs{fill:none;stroke:var(--red);stroke-width:1.6;stroke-dasharray:4 5;animation:dash 1.6s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-18}}
+.v-globe .node{fill:var(--red);animation:nodePulse 2.4s ease-in-out infinite}
+.v-globe .node:nth-of-type(2){animation-delay:-.6s}.v-globe .node:nth-of-type(3){animation-delay:-1.2s}.v-globe .node:nth-of-type(4){animation-delay:-1.8s}
+@keyframes nodePulse{50%{transform:scale(1.7);opacity:.6}}
+.v-seal{color:var(--green)}
+.v-seal .seal-text{font:700 10.5px/1 var(--sans);letter-spacing:.34em;fill:rgba(22,101,52,.7)}
+.v-seal .seal-rot{animation:spin 24s linear infinite}
+.v-seal .disc{fill:#fff;stroke:rgba(22,163,74,.25);stroke-width:1.2}
+@media (max-width:699px){.feat{padding-bottom:1.6rem}}
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+.about{padding:var(--sec) 0;background:var(--g50);overflow:clip}
+.about-grid{display:grid;gap:clamp(2.5rem,6vw,5rem);align-items:center}
+@media (min-width:1024px){.about-grid{grid-template-columns:1fr 1fr}}
+.about h3.story-title{font-size:clamp(1.6rem,2.6vw,2.2rem);margin:.9rem 0 1.1rem}
+.about-copy p{color:var(--g600);margin-bottom:1rem;line-height:1.8}
+.facts{display:grid;gap:.7rem;margin-top:1.6rem}
+.facts li{display:flex;align-items:center;gap:.8rem;font-weight:700;color:var(--ink)}
+.facts b{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--red-soft);color:var(--red);flex:none}
+.facts b svg{width:16px;height:16px}
+.about-visual{position:relative;perspective:1400px}
+.about-frame{position:relative;border-radius:var(--r-xl);overflow:hidden;aspect-ratio:16/11;box-shadow:var(--sh-2);background:var(--g200);transform:rotateY(calc((var(--ap,.5) - .5) * -14deg)) rotateX(calc((var(--ap,.5) - .5) * 8deg))}
+.about-frame img{width:100%;height:118%;object-fit:cover;transform:translateY(calc((var(--ap,.5) - .5) * -14%))}
+.about-frame .grid-ov{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.14) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.14) 1px,transparent 1px);background-size:40px 40px;-webkit-mask:linear-gradient(115deg,transparent 35%,#000 60%,transparent 85%);mask:linear-gradient(115deg,transparent 35%,#000 60%,transparent 85%);-webkit-mask-size:250% 100%;mask-size:250% 100%;animation:sweep 6s var(--ease-io) infinite}
+@keyframes sweep{from{-webkit-mask-position:120% 0;mask-position:120% 0}to{-webkit-mask-position:-120% 0;mask-position:-120% 0}}
+.about-chip{position:absolute;left:-1rem;bottom:-1.4rem;display:flex;align-items:center;gap:.8rem;padding:1rem 1.25rem;border-radius:var(--r-md);background:#fff;box-shadow:var(--sh-2);animation:bob 7s ease-in-out infinite}
+.about-chip strong{font:800 1.5rem/1 var(--sans);color:var(--red);letter-spacing:-.02em}
+.about-chip span{font-size:.85rem;font-weight:600;color:var(--g600);line-height:1.3}
+.about-chip2{left:auto;right:-1rem;bottom:auto;top:-1.2rem;animation-delay:-3s}
+.about-chip2 b{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:var(--mint);color:var(--green)}
+.about-chip2 b svg{width:20px;height:20px}
+@media (max-width:640px){.about-chip{left:.5rem}.about-chip2{left:auto;right:.5rem}}
+
+.values{margin-top:clamp(4rem,8vw,6rem)}
+.values-grid{display:grid;gap:1px;background:var(--g200);border:1px solid var(--g200);border-radius:var(--r-lg);overflow:hidden}
+@media (min-width:700px){.values-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1024px){.values-grid{grid-template-columns:repeat(3,1fr)}}
+.value{position:relative;background:#fff;padding:2rem 1.9rem 2.1rem;transition:background-color .5s}
+.value::after{content:"";position:absolute;left:0;top:0;height:3px;width:100%;background:var(--red);transform:scaleX(0);transform-origin:0 50%;transition:transform .7s var(--ease)}
+.value:hover{background:var(--pink)}
+.value:hover::after{transform:scaleX(1)}
+.value-n{font:700 .78rem/1 var(--sans);letter-spacing:.14em;color:var(--red-dark)}
+.value h4{font-family:var(--sans);font-size:1.15rem;font-weight:800;letter-spacing:-.01em;margin:.9rem 0 .5rem}
+.value p{color:var(--g600);font-size:.96rem}
+
+.team{margin-top:clamp(4rem,8vw,6rem)}
+.team-grid{display:grid;gap:1.25rem}
+@media (min-width:640px){.team-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1080px){.team-grid{grid-template-columns:repeat(4,1fr)}}
+.member{position:relative;padding:2rem 1.6rem;border-radius:var(--r-lg);background:#fff;border:1px solid var(--g200);text-align:center;transform-style:preserve-3d;transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .7s var(--ease),box-shadow .5s}
+.member.is-tilting{transition:transform .12s linear,box-shadow .5s}
+.member:hover{box-shadow:var(--sh-2)}
+.avatar-ring{position:relative;width:92px;height:92px;margin:0 auto 1.2rem;border-radius:50%;display:grid;place-items:center;transform:translateZ(40px)}
+.avatar-ring::before{content:"";position:absolute;inset:0;border-radius:50%;background:conic-gradient(from var(--ang),var(--red),#fb7185,var(--red-soft),var(--red));animation:ang 6s linear infinite;animation-play-state:paused}
+.member:hover .avatar-ring::before{animation-play-state:running}
+.avatar-ring span{position:relative;width:82px;height:82px;border-radius:50%;background:var(--pink);display:grid;place-items:center;font:800 1.5rem/1 var(--sans);color:var(--red-dark);box-shadow:0 0 0 4px #fff}
+.member h4{font-family:var(--sans);font-size:1.1rem;font-weight:800;letter-spacing:-.01em;transform:translateZ(26px)}
+.member .role{display:block;margin-top:.35rem;font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--red-dark);transform:translateZ(20px)}
+.member p{margin-top:.9rem;font-size:.93rem;color:var(--g600);transform:translateZ(14px)}
+
+/* =========================================================
+   PROCESS (pinned cinematic journey)
+   ========================================================= */
+.process{background:var(--ink-2);color:#fff;clip-path:inset(0 calc((1 - var(--enter,1)) * 3.5vw) round calc((1 - var(--enter,1)) * 56px))}
+.process::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(ellipse 60% 50% at 50% 0%,rgba(220,38,38,.22),transparent 70%),
+  radial-gradient(ellipse 40% 40% at 100% 100%,rgba(30,58,138,.35),transparent 70%);pointer-events:none}
+.process-sticky{position:relative;padding:var(--sec) 0}
+.process-grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:56px 56px;-webkit-mask:radial-gradient(ellipse 80% 70% at 50% 50%,#000,transparent 80%);mask:radial-gradient(ellipse 80% 70% at 50% 50%,#000,transparent 80%);pointer-events:none}
+.process .sec-head{margin-bottom:clamp(2rem,4vw,3rem)}
+.p-counter{display:inline-flex;align-items:center;gap:.6rem;margin-top:1.4rem;padding:.45rem .9rem;border-radius:999px;border:1px solid rgba(255,255,255,.14);font:700 .8rem/1 var(--sans);letter-spacing:.12em;color:var(--g400)}
+.p-counter b{color:#fff;font-variant-numeric:tabular-nums}
+.journey{display:none;width:100%;height:auto;overflow:visible}
+.j-ext{fill:none;stroke:rgba(255,255,255,.14);stroke-width:2;stroke-dasharray:2 10;stroke-linecap:round}
+.j-track{fill:none;stroke:rgba(255,255,255,.12);stroke-width:3}
+.j-drawn{fill:none;stroke:url(#jg);stroke-width:3.5;stroke-linecap:round}
+.j-particle{fill:#fecaca}
+.j-node .j-halo{fill:rgba(220,38,38,.18);transform-box:fill-box;transform-origin:center;transform:scale(.6);opacity:0;transition:transform .8s var(--ease),opacity .6s}
+.j-node .j-ring{fill:none;stroke:rgba(255,255,255,.25);stroke-width:2;transition:stroke .5s}
+.j-node .j-core{fill:#1e293b;transition:fill .5s}
+.j-node text{fill:var(--g400);font:800 15px/1 var(--sans);text-anchor:middle;transition:fill .5s}
+.j-node.is-on .j-halo{transform:scale(1);opacity:1;animation:halo 2.4s ease-in-out infinite}
+.j-node.is-on .j-ring{stroke:var(--red-300)}
+.j-node.is-on .j-core{fill:var(--red)}
+.j-node.is-on text{fill:#fff}
+@keyframes halo{50%{transform:scale(1.25);opacity:.45}}
+.steps{position:relative;display:grid;gap:1.25rem}
+.step{position:relative;padding:1.8rem 1.6rem;border-radius:var(--r-lg);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);transition:background-color .6s,border-color .6s,transform .8s var(--ease),opacity .6s}
+.step.is-on{background:rgba(255,255,255,.07);border-color:rgba(252,165,165,.35)}
+.step-n{font:800 .8rem/1 var(--sans);letter-spacing:.16em;color:var(--red-300)}
+.step h3{font-family:var(--sans);color:#fff;font-size:1.35rem;font-weight:800;letter-spacing:-.02em;margin:.7rem 0 .6rem}
+.step p{color:var(--g400);line-height:1.75}
+.ill{width:150px;height:100px;margin-bottom:.8rem;overflow:visible}
+.ill .doc{fill:rgba(255,255,255,.06);stroke:rgba(255,255,255,.4);stroke-width:1.5}
+.ill .ln{stroke:rgba(255,255,255,.28);stroke-width:3;stroke-linecap:round}
+.ill .badge{fill:var(--red)}
+.ill .w{fill:none;stroke:#fff;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ill *{transform-box:fill-box;transform-origin:center}
+.step.is-on .ill-up{animation:upload 2.2s var(--ease) infinite}
+@keyframes upload{0%{transform:translateY(10px);opacity:0}30%,70%{transform:none;opacity:1}100%{transform:translateY(-8px);opacity:0}}
+.ill-mag{transform-origin:0 0}
+.step.is-on .ill-mag{animation:mag 3.2s var(--ease-io) infinite}
+@keyframes mag{0%,100%{transform:translate(0,0)}33%{transform:translate(14px,14px)}66%{transform:translate(-6px,26px)}}
+.ill .scanbar{fill:rgba(252,165,165,.55)}
+.step.is-on .scanbar{animation:scanbar 2.2s var(--ease-io) infinite}
+@keyframes scanbar{0%,100%{transform:translateY(0)}50%{transform:translateY(58px)}}
+.ill .chk{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1s var(--ease) .2s}
+.step.is-on .chk{stroke-dashoffset:0}
+.steps-line{position:absolute;left:22px;top:0;bottom:0;width:2px;background:rgba(255,255,255,.1);border-radius:2px;overflow:hidden}
+.steps-line i{display:block;height:100%;background:linear-gradient(var(--red),#f87171);transform-origin:50% 0;transform:scaleY(var(--pf,0))}
+@media (max-width:899px){
+  .steps{padding-left:3.2rem}
+  .step::before{content:"";position:absolute;left:calc(-3.2rem + 15px);top:2rem;width:16px;height:16px;border-radius:50%;background:var(--ink-2);border:2px solid rgba(255,255,255,.3);transition:background-color .5s,border-color .5s,box-shadow .5s}
+  .step.is-on::before{background:var(--red);border-color:var(--red-300);box-shadow:0 0 0 6px rgba(220,38,38,.2)}
+}
+@media (min-width:900px){
+  .js:not(.rm) .process{height:300vh}
+  .js:not(.rm) .process-sticky{position:sticky;top:0;height:100vh;min-height:640px;display:flex;flex-direction:column;justify-content:center;padding:calc(var(--header-h) + 1rem) 0 2rem}
+  .journey{display:block;margin:-.5rem 0 -1.5rem}
+  .steps{grid-template-columns:repeat(3,1fr);gap:1.5rem}
+  .steps-line{display:none}
+  .js:not(.rm) .step{opacity:.38;transform:translateY(18px)}
+  .js:not(.rm) .step.is-on{opacity:1;transform:none}
+}
+@media (min-width:900px) and (max-height:760px){.ill{display:none}.process .h-sec{font-size:clamp(2rem,3.6vw,3rem)}}
+
+/* =========================================================
+   REPORT / WHAT'S INCLUDED
+   ========================================================= */
+.report-sec{padding:var(--sec) 0;background:#fff;overflow:clip}
+.report-grid{display:grid;gap:clamp(3rem,6vw,5rem);align-items:center}
+@media (min-width:1024px){.report-grid{grid-template-columns:1fr 1.05fr}}
+.incl{display:grid;gap:.15rem;margin-top:2rem}
+@media (min-width:560px){.incl{grid-template-columns:1fr 1fr;column-gap:1.5rem}}
+.incl li{display:flex;align-items:center;gap:.8rem;padding:.8rem 0;border-bottom:1px solid var(--g100);font-weight:600;color:var(--g700)}
+.incl svg{width:24px;height:24px;flex:none}
+.incl .c-bg{fill:var(--red-soft)}
+.incl .c-ck{fill:none;stroke:var(--red);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .8s var(--ease);transition-delay:calc(var(--i,0) * 110ms + .3s)}
+.incl.is-in .c-ck{stroke-dashoffset:0}
+.report-cta{margin-top:2.2rem}
+.report-stage{position:relative;perspective:1600px;padding:2rem 0}
+.report{position:relative;margin:0 auto;width:min(100%,460px);padding:1.8rem 1.8rem 1.6rem;border-radius:var(--r-lg);background:#fff;border:1px solid var(--g200);box-shadow:0 2px 6px rgba(17,24,39,.05),0 60px 90px -40px rgba(17,24,39,.4);transform-style:preserve-3d;
+  transform:rotateX(calc(16deg - var(--rp,1) * 12deg)) rotateY(calc(-26deg + var(--rp,1) * 20deg)) rotateZ(calc(3deg - var(--rp,1) * 3deg))}
+.report::before{content:"";position:absolute;inset:10px -10px -10px 10px;z-index:-1;border-radius:inherit;background:var(--pink);transform:translateZ(-40px)}
+.report-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-bottom:1.1rem;border-bottom:1px dashed var(--g200)}
+.report-head .logo-main{font-size:1.05rem}.report-head .logo-24{font-size:1.35rem}.report-head .logo-tagline{font-size:.5rem}
+.report-tag{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red-dark);background:var(--red-soft);padding:.4rem .65rem;border-radius:999px}
+.r-sec{padding:1rem 0;border-bottom:1px solid var(--g100);transform:translateZ(18px)}
+.r-label{display:flex;align-items:center;gap:.5rem;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin-bottom:.7rem}
+.r-label i{width:8px;height:8px;border-radius:50%;background:var(--red)}
+.sk{display:block;height:8px;border-radius:6px;background:linear-gradient(90deg,var(--g100),var(--g200),var(--g100));background-size:200% 100%;animation:shimmer 2.4s linear infinite;margin-top:.5rem}
+@keyframes shimmer{to{background-position:-200% 0}}
+.w95{width:95%}.w80{width:80%}.w70{width:70%}.w60{width:60%}.w45{width:45%}
+.r-sign{display:flex;align-items:flex-end;justify-content:space-between;padding-top:1.2rem}
+.r-sign svg{width:120px;height:40px}
+.r-sign path{fill:none;stroke:var(--navy);stroke-width:2;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2s var(--ease) .6s}
+.report-stage.is-in .r-sign path{stroke-dashoffset:0}
+.r-stamp{display:grid;place-items:center;width:64px;height:64px;border-radius:50%;border:2px solid var(--green);color:var(--green);font:800 .55rem/1.15 var(--sans);text-align:center;letter-spacing:.06em;text-transform:uppercase;transform:rotate(-12deg) scale(.4);opacity:0;transition:transform .7s cubic-bezier(.34,1.56,.64,1) 1.2s,opacity .3s 1.2s}
+.report-stage.is-in .r-stamp{transform:rotate(-12deg);opacity:1}
+.r-scan{position:absolute;left:0;right:0;top:0;height:2px;background:var(--red);box-shadow:0 0 18px 3px rgba(220,38,38,.45);animation:rscan 4.5s var(--ease-io) infinite;opacity:.7;border-radius:2px}
+@keyframes rscan{0%,100%{top:8%}50%{top:92%}}
+.fp{position:absolute;z-index:2;display:flex;align-items:center;gap:.7rem;padding:.75rem 1rem;border-radius:16px;background:rgba(255,255,255,.95);border:1px solid var(--g100);box-shadow:var(--sh-2);font-size:.85rem;font-weight:700;color:var(--ink);transform:translate3d(0,calc((var(--rp,1) - .5) * var(--pf,-60px)),0)}
+.fp b{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;flex:none}
+.fp b svg{width:18px;height:18px}
+.fp1{left:-3%;top:44%;--pf:-90px}.fp1 b{background:var(--mint);color:var(--green)}
+.fp2{right:-3%;bottom:-1%;--pf:60px}.fp2 b{background:var(--blue);color:var(--navy)}
+.fp3{right:-2%;top:-2%;--pf:-40px;padding:.6rem .8rem}
+.fp3 svg.mini-ecg{width:110px;height:30px}
+.mini-ecg path{fill:none;stroke:var(--red);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:60 240;animation:ecg 2.2s linear infinite}
+@media (max-width:640px){.fp{font-size:.75rem;padding:.6rem .75rem}.fp1{left:-.4rem}.fp2{right:-.4rem}}
+
+/* =========================================================
+   TESTIMONIALS (3D coverflow)
+   ========================================================= */
+.testimonials{padding:var(--sec) 0;background:var(--g50);overflow:clip}
+.tcar{position:relative}
+.tcar-track{position:relative;display:grid;justify-items:center;perspective:1500px;transform-style:preserve-3d;touch-action:pan-y;user-select:none;padding:1rem 0 2rem}
+.tcard{grid-area:1/1;position:relative;width:min(540px,84vw);padding:2.4rem 2.2rem 2rem;border-radius:var(--r-lg);background:#fff;box-shadow:0 30px 60px -28px rgba(17,24,39,.3);cursor:pointer;
+  transform:translateX(calc(var(--o,0) * 62%)) translateZ(calc(var(--a,0) * -240px)) rotateY(calc(var(--o,0) * -26deg));opacity:calc(1 - var(--a,0) * .4);z-index:calc(10 - var(--a,0));transition:transform 1s var(--ease),opacity .7s var(--ease),box-shadow .6s}
+.tcard.is-active{cursor:default;box-shadow:0 40px 80px -30px rgba(17,24,39,.38)}
+.tcard[data-tint="pink"]{background:var(--pink)}.tcard[data-tint="blue"]{background:var(--blue)}.tcard[data-tint="yellow"]{background:var(--yellow)}.tcard[data-tint="mint"]{background:var(--mint)}.tcard[data-tint="lav"]{background:var(--lav)}
+.tq{width:46px;height:46px;color:var(--red);opacity:.85}
+.tcard blockquote p{font:500 clamp(1.2rem,2vw,1.55rem)/1.45 var(--serif);font-style:italic;color:var(--ink);margin:1.1rem 0 1.8rem;letter-spacing:-.01em}
+.tcard figcaption{display:flex;align-items:center;gap:1rem}
+.avatar{display:grid;place-items:center;width:50px;height:50px;border-radius:50%;background:rgba(17,24,39,.08);font-weight:800;color:var(--ink);flex:none}
+.tcard figcaption strong{display:block;font-weight:800}
+.tcard figcaption span span{font-size:.88rem;color:var(--g600)}
+html:not(.js) .tcar-track{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory}
+html:not(.js) .tcard{flex:0 0 auto;transform:none;opacity:1;scroll-snap-align:center}
+html:not(.js) .tcar-ctrl{display:none}
+.tcar-ctrl{display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:1rem}
+.tbtn{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#fff;border:1px solid var(--g200);box-shadow:var(--sh-1);transition:background-color .3s,color .3s,transform .5s var(--ease)}
+.tbtn:hover{background:var(--red);color:#fff;transform:scale(1.06)}
+.tbtn svg{width:20px;height:20px}
+.tdots{display:flex;gap:.5rem}
+.tdots button{width:10px;height:10px;border-radius:999px;background:var(--g300);transition:width .5s var(--ease),background-color .3s}
+.tdots button[aria-current="true"]{width:34px;background:var(--red)}
+
+/* =========================================================
+   BLOG
+   ========================================================= */
+.blog{padding:var(--sec) 0;background:#fff;overflow:clip}
+.blog-grid{display:grid;gap:2rem}
+@media (min-width:1024px){.blog-grid{grid-template-columns:.92fr 1.08fr;gap:2.5rem}.blog-grid > .feature-post{position:sticky;top:calc(var(--header-h) + 1.5rem);align-self:start;min-height:min(600px,calc(100vh - var(--header-h) - 3rem))}}
+.feature-post{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:520px;padding:2.2rem;border-radius:var(--r-xl);background:var(--ink);color:#fff;overflow:hidden;isolation:isolate;transition:translate .7s var(--ease)}
+.feature-post:hover{translate:0 -6px}
+.fp-art{position:absolute;inset:0;z-index:-1}
+.fp-art svg{width:100%;height:100%}
+.fp-art .gl{stroke:rgba(255,255,255,.06);stroke-width:1}
+.fp-art .ring{fill:none;stroke:rgba(252,165,165,.25);stroke-width:1}
+.fp-art .ring-s{animation:spin 40s linear infinite;transform-box:fill-box;transform-origin:center;stroke-dasharray:4 10}
+.fp-art .beat{fill:none;stroke:var(--red);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:260 1100;animation:beat 4s linear infinite;filter:drop-shadow(0 0 6px rgba(220,38,38,.8))}
+.fp-art .beat-bg{fill:none;stroke:rgba(220,38,38,.22);stroke-width:2}
+@keyframes beat{from{stroke-dashoffset:1360}to{stroke-dashoffset:0}}
+.feature-post::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 25%,rgba(17,24,39,.9) 75%)}
+.fp-badge{align-self:flex-start;margin-bottom:auto;padding:.45rem .85rem;border-radius:999px;background:var(--red);font-size:.75rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.feature-post h3{color:#fff;font-size:clamp(1.8rem,3vw,2.5rem);margin:0 0 1rem}
+.feature-post p{color:#d1d5db;max-width:34rem}
+.byline{display:flex;align-items:center;gap:.8rem;margin-top:1.4rem;font-size:.9rem;color:var(--g400)}
+.byline .avatar{width:40px;height:40px;font-size:.8rem;background:rgba(255,255,255,.12);color:#fff}
+.byline strong{color:#fff;display:block}
+.feature-post .tlink{color:#fff;margin-top:1.6rem}
+.posts{display:grid;align-content:start}
+.post{position:relative;display:grid;grid-template-columns:1fr auto;gap:.4rem 1.2rem;padding:1.35rem 1.2rem;border-bottom:1px solid var(--g200);isolation:isolate;transition:padding .6s var(--ease)}
+.post::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:var(--r-md);background:var(--pink);transform:scaleX(0);transform-origin:0 50%;transition:transform .6s var(--ease)}
+.post:hover::before,.post:focus-visible::before{transform:scaleX(1)}
+.post:hover{padding-left:1.7rem}
+.post-tag{grid-column:1/-1;font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red-dark)}
+.post-title{font:600 clamp(1.15rem,1.6vw,1.35rem)/1.3 var(--serif);color:var(--ink)}
+.post-ex{grid-column:1;font-size:.92rem;color:var(--g600)}
+.post-meta{grid-column:1;font-size:.82rem;color:var(--g500);font-weight:600}
+.post-arrow{grid-column:2;grid-row:2/5;align-self:center;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid var(--g200);background:#fff;transition:transform .6s var(--ease),background-color .3s,color .3s,border-color .3s}
+.post-arrow svg{width:18px;height:18px}
+.post:hover .post-arrow{transform:rotate(-45deg);background:var(--red);border-color:var(--red);color:#fff}
+
+/* =========================================================
+   FAQ
+   ========================================================= */
+.faq{padding:var(--sec) 0;background:var(--sky);overflow:clip}
+.faq-grid{display:grid;gap:3rem}
+@media (min-width:1024px){.faq-grid{grid-template-columns:.8fr 1.2fr;gap:4rem}.faq-side{position:sticky;top:calc(var(--header-h) + 2rem);align-self:start}}
+.help{margin-top:2rem;padding:1.6rem;border-radius:var(--r-lg);background:#fff;box-shadow:var(--sh-1)}
+.help h3{font-family:var(--sans);font-size:1.1rem;font-weight:800;letter-spacing:-.01em}
+.help p{color:var(--g600);font-size:.95rem;margin:.4rem 0 1.1rem}
+.help-links{display:grid;gap:.6rem}
+.help-links a{display:flex;align-items:center;gap:.75rem;padding:.8rem 1rem;border-radius:14px;border:1px solid var(--g200);font-weight:700;transition:border-color .3s,background-color .3s,transform .5s var(--ease)}
+.help-links a:hover{border-color:var(--red);background:var(--pink);transform:translateX(4px)}
+.help-links svg{width:20px;height:20px;color:var(--red)}
+.faq-list{display:grid;gap:.75rem}
+.faq-item{border-radius:var(--r-md);background:#fff;border:1px solid var(--g200);transition:box-shadow .5s,border-color .5s}
+.faq-item.open{border-color:rgba(220,38,38,.25);box-shadow:var(--sh-1)}
+.faq-item h3{font:inherit;letter-spacing:normal}
+.faq-q{width:100%;display:flex;align-items:center;gap:1rem;padding:1.2rem 1.3rem;text-align:left;font-weight:700;font-size:1.05rem;color:var(--ink);border-radius:inherit}
+.faq-n{font:800 .78rem/1 var(--sans);color:var(--red-dark);letter-spacing:.08em;flex:none}
+.faq-q > span:nth-child(2){flex:1}
+.faq-ico{position:relative;width:34px;height:34px;border-radius:50%;background:var(--g100);flex:none;transition:background-color .4s,transform .6s var(--ease)}
+.faq-ico::before,.faq-ico::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;margin:-1px 0 0 -6px;background:var(--ink);border-radius:2px;transition:transform .6s var(--ease),background-color .4s}
+.faq-ico::after{transform:rotate(90deg)}
+.faq-item.open .faq-ico{background:var(--red);transform:rotate(180deg)}
+.faq-item.open .faq-ico::before,.faq-item.open .faq-ico::after{background:#fff}
+.faq-item.open .faq-ico::after{transform:rotate(0)}
+.faq-a{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .6s var(--ease),visibility 0s .6s}
+.faq-item.open .faq-a{grid-template-rows:1fr;visibility:visible;transition:grid-template-rows .6s var(--ease)}
+.faq-a > div{overflow:hidden}
+.faq-a p{padding:0 1.3rem 1.4rem 3.4rem;color:var(--g600);line-height:1.8}
+@media (max-width:560px){.faq-a p{padding-left:1.3rem}}
+
+/* =========================================================
+   CTA
+   ========================================================= */
+.cta{padding:clamp(2rem,4vw,3rem) var(--pad)}
+.cta-panel{position:relative;max-width:1400px;margin:0 auto;padding:clamp(4.5rem,9vw,7.5rem) var(--pad);border-radius:calc((1 - var(--cp,1)) * 40px + 28px);background:var(--red);color:#fff;text-align:center;overflow:hidden;isolation:isolate;transform:scale(calc(.92 + var(--cp,1) * .08))}
+.cta-panel::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.09) 1px,transparent 1px);background-size:48px 48px;-webkit-mask:radial-gradient(ellipse 60% 70% at 50% 50%,#000,transparent 85%);mask:radial-gradient(ellipse 60% 70% at 50% 50%,#000,transparent 85%)}
+.cta-panel::after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(circle at 20% 0%,rgba(255,255,255,.18),transparent 45%),radial-gradient(circle at 90% 100%,rgba(127,29,29,.55),transparent 55%)}
+.cta-rings{position:absolute;inset:0;z-index:-1;display:grid;place-items:center;pointer-events:none}
+.cta-rings i{position:absolute;width:var(--s);aspect-ratio:1;border-radius:50%;border:1px solid rgba(255,255,255,.18);animation:ctaRing 6s var(--ease) infinite;animation-delay:var(--dl)}
+@keyframes ctaRing{0%{transform:scale(.6);opacity:0}30%{opacity:1}100%{transform:scale(1.25);opacity:0}}
+.cta-beam{position:absolute;left:0;right:0;height:120px;top:-120px;z-index:-1;background:linear-gradient(180deg,transparent,rgba(255,255,255,.14),transparent);animation:ctaBeam 5s var(--ease-io) infinite}
+@keyframes ctaBeam{to{transform:translateY(900px)}}
+.cta h2{color:#fff;font-size:clamp(2.3rem,5.6vw,4.6rem);max-width:15ch;margin:1.2rem auto 1.4rem}
+.cta .eyebrow{color:#fff}
+.cta-text{font-size:clamp(1.05rem,1.5vw,1.25rem);color:rgba(255,255,255,.92);max-width:42rem;margin:0 auto 2.4rem}
+.cta-buttons{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+.contact{padding:var(--sec) 0;background:#fff;overflow:clip}
+.contact-grid{display:grid;gap:2.5rem}
+@media (min-width:1024px){.contact-grid{grid-template-columns:.85fr 1.15fr;gap:3.5rem;align-items:start}}
+.contact-cards{display:grid;gap:1rem;margin-top:2.2rem}
+.ccard{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1rem;padding:1.4rem 1.5rem;border-radius:var(--r-md);transition:translate .6s var(--ease),box-shadow .5s}
+.ccard:hover{translate:6px 0;box-shadow:var(--sh-1)}
+.ccard.email{background:#f0f9ff}.ccard.phone{background:#f0fdf4}.ccard.address{background:var(--peach)}
+.c-ico{grid-row:span 3;width:48px;height:48px;border-radius:50%;display:grid;place-items:center}
+.c-ico svg{width:22px;height:22px;stroke-width:2}
+.email .c-ico{background:#dbeafe;color:#0369a1}.phone .c-ico{background:#dcfce7;color:#047857}.address .c-ico{background:#ffedd5;color:#c2410c}
+.ccard h3{font-family:var(--sans);font-size:1.05rem;font-weight:800;letter-spacing:-.01em;align-self:center}
+.ccard p,.ccard a{font-size:.95rem;color:var(--g600)}
+.ccard a{font-weight:600;transition:color .3s}
+.ccard a:hover{color:var(--red-dark)}
+.phones{display:grid;gap:.2rem}
+.phones a{display:flex;flex-wrap:wrap;gap:0 .4rem}
+.phones a b{font-weight:700;color:var(--ink)}
+.form-card{position:relative;padding:clamp(1.6rem,4vw,2.8rem);border-radius:var(--r-xl);background:#fff;border:1px solid var(--g200);box-shadow:var(--sh-2);overflow:hidden}
+.form-card::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:linear-gradient(90deg,var(--royal),var(--red));transform-origin:0 50%;transform:scaleX(var(--fp,0));transition:transform .6s var(--ease)}
+.form-card h3{font-family:var(--sans);font-size:1.35rem;font-weight:800;letter-spacing:-.02em;margin-bottom:1.6rem}
+.cform{display:grid;gap:1.2rem}
+@media (min-width:640px){.cform{grid-template-columns:1fr 1fr}.cform .full{grid-column:1/-1}}
+.field label{display:block;font-size:.85rem;font-weight:700;color:var(--ink-2);margin-bottom:.45rem}
+.field input,.field textarea{width:100%;padding:.85rem 1rem;border-radius:12px;border:1.5px solid var(--g300);background:var(--g50);font-size:.95rem;transition:border-color .3s,box-shadow .3s,background-color .3s}
+.field textarea{min-height:140px;resize:vertical}
+.field input:hover,.field textarea:hover{border-color:var(--g400)}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--navy);background:#fff;box-shadow:0 0 0 4px rgba(37,99,235,.14)}
+.field.invalid input,.field.invalid textarea{border-color:var(--red);box-shadow:0 0 0 4px rgba(220,38,38,.1)}
+.err{display:block;min-height:1.1em;margin-top:.35rem;font-size:.78rem;font-weight:600;color:var(--red-dark)}
+.consent{display:flex;align-items:flex-start;gap:.7rem;font-size:.88rem;color:var(--g600);line-height:1.5;cursor:pointer}
+.consent input{width:18px;height:18px;margin-top:2px;flex:none;accent-color:var(--royal);cursor:pointer}
+.consent a{color:var(--royal);font-weight:700;text-decoration:underline;text-underline-offset:2px}
+.submit-row{display:flex;justify-content:flex-end}
+.btn-send{background:var(--royal);color:#fff;box-shadow:0 16px 30px -14px rgba(37,99,235,.65);min-width:190px}
+.btn-send:hover{background:#1d4ed8}
+.btn-send .spin{display:none;width:18px;height:18px;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite}
+.btn-send.is-sending .spin{display:inline-block}
+.btn-send.is-sending .arrow{display:none}
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.footer{position:relative;background:var(--ink);color:#fff;padding:clamp(4rem,7vw,5.5rem) 0 2rem;overflow:clip}
+.footer-ecg{position:absolute;left:0;right:0;top:0;height:60px;width:100%;opacity:.7}
+.footer-ecg path{fill:none;stroke:var(--red);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:240 1360;animation:fecg 7s linear infinite}
+@keyframes fecg{from{stroke-dashoffset:1600}to{stroke-dashoffset:0}}
+.footer-grid{display:grid;gap:2.8rem;margin-bottom:3rem}
+@media (min-width:768px){.footer-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1080px){.footer-grid{grid-template-columns:2fr 1fr 1.3fr 1.3fr}}
+.footer .logo-main{color:#fff}
+.footer .logo-tagline{color:var(--g400)}
+.footer-desc{color:var(--g400);margin-top:1.4rem;max-width:26rem;line-height:1.8}
+.footer h4{font-family:var(--sans);font-size:1rem;font-weight:800;letter-spacing:.02em;margin-bottom:1.3rem;color:#fff}
+.flinks{display:grid;gap:.7rem}
+.flinks a{color:var(--g400);transition:color .3s,transform .5s var(--ease);display:inline-block}
+.flinks a:hover{color:#fff;transform:translateX(4px)}
+.fcontact{display:grid;gap:1rem}
+.fcontact > *{display:flex;gap:.75rem;align-items:flex-start;color:var(--g400)}
+.fcontact svg{width:20px;height:20px;color:var(--red);flex:none;margin-top:3px}
+.fcontact a{transition:color .3s}
+.fcontact a:hover{color:#fff}
+.footer-bottom{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;padding-top:2rem;border-top:1px solid var(--g800);color:var(--g500);font-size:.875rem}
+.to-top{display:inline-flex;align-items:center;gap:.6rem;color:var(--g400);font-weight:700}
+.to-top i{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:1px solid var(--g700);transition:background-color .3s,border-color .3s,transform .5s var(--ease)}
+.to-top svg{width:16px;height:16px}
+.to-top:hover i{background:var(--red);border-color:var(--red);transform:translateY(-3px)}
+.to-top:hover{color:#fff}
+
+/* Custom cursor replaces the native one on fine pointers */
+.has-cursor,.has-cursor *{cursor:none!important}
+.cursor-dot{box-shadow:0 0 0 2px rgba(255,255,255,.9)}
+.cursor.is-invert .cursor-ring{border-color:rgba(255,255,255,.85)}
+.cursor.is-invert.is-hover .cursor-ring{background:rgba(255,255,255,.14);border-color:#fff}
+.cursor.is-invert .cursor-dot{background:#fff;box-shadow:0 0 0 2px rgba(220,38,38,.6)}
+
+/* Mobile quick-action bar + swipe hints (phones only) */
+.m-bar,.swipe-hint{display:none}
+.swipe-hint{align-items:center;justify-content:flex-end;gap:.4rem;margin-top:-.25rem;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g500)}
+.swipe-hint svg{width:16px;height:16px;color:var(--red);animation:nudge 1.8s var(--ease) infinite}
+@keyframes nudge{50%{transform:translateX(4px)}}
+
+/* =========================================================
+   MOBILE (≤767px) — compact layout; desktop untouched
+   ========================================================= */
+@media (max-width:767px){
+  :root{--sec:3.5rem;--header-h:64px}
+  .sec-head{margin-bottom:1.75rem}
+  .h-sec{font-size:clamp(1.85rem,8.2vw,2.35rem);margin-top:.75rem}
+  .lead{font-size:.98rem;margin-top:.75rem;line-height:1.6}
+  .eyebrow{font-size:.7rem}
+
+  /* swipe rows */
+  .spec-grid,.values-grid,.team-grid{display:flex;gap:.8rem;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--pad);margin-inline:calc(var(--pad) * -1);padding:.4rem var(--pad) 1rem;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .spec-grid::-webkit-scrollbar,.values-grid::-webkit-scrollbar,.team-grid::-webkit-scrollbar,.hero-meta::-webkit-scrollbar{display:none}
+  .spec-grid > *,.team-grid > *{flex:0 0 80%;scroll-snap-align:start}
+  .js .spec-grid > .reveal,.js .team-grid > .reveal{opacity:1;transform:none}
+  .swipe-hint{display:flex}
+
+  /* Hero */
+  .hero{min-height:0;padding:calc(var(--header-h) + 1.1rem) 0 2.25rem}
+  .hero-inner{gap:1.5rem}
+  .hero-inner > *,.about-grid > *,.report-grid > *,.contact-grid > *,.blog-grid > *{min-width:0}
+  .hero-badge{font-size:.78rem;padding:.4rem .85rem .4rem .45rem}
+  .hero-badge b{width:22px;height:22px}
+  .hero h1{font-size:clamp(2.15rem,10.4vw,2.75rem);margin:.9rem 0 .9rem}
+  .hero-desc{font-size:.98rem;line-height:1.6}
+  .hero-actions{display:grid;gap:.6rem;margin-top:1.35rem}
+  .hero-actions .btn{width:100%;padding:.95rem 1.2rem;font-size:1rem}
+  .hero-meta{flex-wrap:nowrap;overflow-x:auto;gap:.45rem;margin:1.1rem calc(var(--pad) * -1) 0;padding:0 var(--pad);scrollbar-width:none}
+  .hero-meta li{flex:none;padding:.4rem .7rem;border-radius:999px;background:rgba(255,255,255,.85);border:1px solid var(--g200);font-size:.76rem;white-space:nowrap}
+  .hero-meta svg{width:15px;height:15px}
+  .hero-stage{aspect-ratio:1/.86;max-width:430px}
+  .hero-photo{top:19%;left:3%;width:84%;height:60%}
+  .p-ecg{width:60%;top:-3%;right:-1%}
+  .p-ecg .panel{padding:.7rem .8rem .5rem}
+  .p-head{font-size:.62rem}
+  .p-title{font-size:.8rem;margin-top:.3rem}
+  .ecg{height:30px;margin-top:.2rem}
+  .p-claim{left:-1%;bottom:-4%}
+  .p-claim .panel{padding:.6rem .9rem .6rem .6rem;gap:.6rem}
+  .p-claim strong{font-size:1.2rem}
+  .p-claim .lbl{font-size:.72rem}
+  .gauge{width:40px;height:40px}
+  .p-secure{right:-1%;bottom:12%}
+  .p-secure .panel{font-size:.72rem;padding:.5rem .75rem .5rem .5rem}
+  .p-secure b{width:28px;height:28px}
+
+  /* Stats: 2 × 2 */
+  .stats{padding-bottom:2rem}
+  .stats-band{grid-template-columns:1fr 1fr;border-radius:var(--r-lg)}
+  .stat{grid-template-columns:1fr;justify-items:start;gap:.3rem;padding:1rem 1rem 1.1rem}
+  .stat + .stat{border-top:0;border-left:0}
+  .stat:nth-child(n+3){border-top:1px solid var(--g100)}
+  .stat:nth-child(even){border-left:1px solid var(--g100)}
+  .stat-icon{grid-row:auto;width:36px;height:36px}
+  .stat-icon svg{width:18px;height:18px}
+  .stat-icon::after{inset:-4px}
+  .stat-num{font-size:1.6rem}
+  .stat-label{font-size:.78rem}
+
+  /* Specialties: swipe cards */
+  .spec-card{min-height:0;padding:1.35rem 1.3rem 1.2rem;border-radius:var(--r-md)}
+  .spec-icon{width:48px;height:48px;border-radius:12px}
+  .spec-icon svg{width:24px;height:24px}
+  .spec-title{font-size:1.2rem;margin:1rem 0 .35rem}
+  .spec-desc{font-size:.9rem;line-height:1.55}
+  .spec-list{margin-top:.75rem;font-size:.82rem;gap:.3rem}
+  .spec-link{padding-top:1rem;font-size:.92rem}
+  .spec-ghost{display:none}
+  .also{margin-top:.5rem;padding:1rem;gap:.75rem;border-radius:var(--r-md)}
+  .also-label{font-size:.8rem}
+  .marquee{flex-basis:100%;order:3}
+  .also .btn{margin-left:auto}
+
+  /* Why choose us: 2 × 2 */
+  .why-grid{grid-template-columns:1fr 1fr;gap:.7rem;transform:none}
+  .feat{padding:.9rem .75rem 1rem;border-radius:var(--r-md)}
+  .viz{max-width:118px}
+  .cipher{display:none}
+  .v-tag{margin:0 0 .2rem;font-size:.66rem;padding:.25rem .55rem}
+  .feat h3{font-size:.95rem;margin-top:.25rem}
+  .feat p{font-size:.8rem;line-height:1.45;margin-top:.3rem}
+
+  /* About */
+  .about-grid{gap:2.25rem}
+  .about h3.story-title{font-size:1.4rem;margin:.6rem 0 .75rem}
+  .about-copy p{font-size:.93rem;line-height:1.65;margin-bottom:.7rem}
+  .facts{gap:.45rem;margin-top:1rem}
+  .facts li{font-size:.88rem;gap:.6rem}
+  .facts b{width:24px;height:24px}
+  .facts b svg{width:13px;height:13px}
+  .about-frame{aspect-ratio:16/10;border-radius:var(--r-lg)}
+  .about-chip{padding:.6rem .8rem;gap:.55rem;bottom:-1rem}
+  .about-chip strong{font-size:1.15rem}
+  .about-chip span{font-size:.72rem}
+  .about-chip2{top:-1rem;bottom:auto;left:auto;right:.5rem}
+  .about-chip2 b{width:28px;height:28px}
+  .values,.team{margin-top:3rem}
+  .values-grid{background:none;border:0;border-radius:0;overflow-x:auto}
+  .value{flex:0 0 72%;scroll-snap-align:start;padding:1.25rem 1.2rem 1.35rem;border:1px solid var(--g200);border-radius:var(--r-md);overflow:hidden}
+  .value h4{font-size:1rem;margin:.6rem 0 .35rem}
+  .value p{font-size:.86rem;line-height:1.55}
+  .member{padding:1.4rem 1.1rem}
+  .avatar-ring{width:72px;height:72px;margin-bottom:.9rem}
+  .avatar-ring span{width:64px;height:64px;font-size:1.2rem}
+  .member h4{font-size:1rem}
+  .member .role{font-size:.7rem}
+  .member p{font-size:.85rem;margin-top:.6rem;line-height:1.55}
+
+  /* How it works */
+  .process-sticky{padding:var(--sec) 0}
+  .process .sec-head{margin-bottom:1.4rem}
+  .p-counter{margin-top:.9rem}
+  .ill{display:none}
+  .steps{gap:.7rem;padding-left:2.6rem}
+  .steps-line{left:16px}
+  .step{padding:1.1rem 1.1rem 1.15rem;border-radius:var(--r-md)}
+  .step::before{left:calc(-2.6rem + 9px);top:1.25rem}
+  .step h3{font-size:1.08rem;margin:.4rem 0 .3rem}
+  .step p{font-size:.88rem;line-height:1.6}
+
+  /* What's included */
+  .report-grid{gap:1.5rem}
+  .incl{grid-template-columns:1fr 1fr;column-gap:.8rem;margin-top:1.1rem}
+  .incl li{align-items:flex-start;gap:.5rem;padding:.55rem 0;font-size:.8rem;line-height:1.35}
+  .incl svg{width:18px;height:18px;margin-top:1px}
+  .report-cta{margin-top:1.25rem}
+  .report-cta .btn{width:100%}
+  .report-stage{max-width:340px;margin:0 auto;padding:.75rem 0 0}
+  .report{padding:1.1rem 1.1rem 1rem;border-radius:var(--r-md)}
+  .report-head{padding-bottom:.7rem}
+  .report-tag{font-size:.58rem;padding:.3rem .5rem}
+  .r-sec{padding:.6rem 0}
+  .r-label{font-size:.66rem;margin-bottom:.4rem}
+  .sk{height:6px;margin-top:.35rem}
+  .r-sign{padding-top:.7rem}
+  .r-sign svg{width:90px;height:30px}
+  .r-stamp{width:50px;height:50px;font-size:.45rem}
+  .fp{font-size:.7rem;padding:.5rem .65rem;gap:.45rem;border-radius:12px}
+  .fp b{width:26px;height:26px}
+  .fp b svg{width:14px;height:14px}
+  .fp1{left:-2%;top:46%}
+  .fp2{right:-2%;bottom:-6%}
+  .fp3{display:none}
+
+  /* Testimonials */
+  .tcar-track{padding:.25rem 0 1rem}
+  .tcard{width:86vw;padding:1.4rem 1.3rem 1.25rem;border-radius:var(--r-md)}
+  .tq{width:30px;height:30px}
+  .tcard blockquote p{font-size:1.08rem;margin:.6rem 0 1rem}
+  .avatar{width:42px;height:42px;font-size:.85rem}
+  .tcar-ctrl{margin-top:0}
+  .tbtn{width:44px;height:44px}
+
+  /* Blog */
+  .blog-grid{gap:.75rem}
+  .feature-post{min-height:340px;padding:1.4rem;border-radius:var(--r-lg)}
+  .feature-post h3{font-size:1.45rem;margin-bottom:.6rem}
+  .feature-post p{font-size:.88rem;line-height:1.55}
+  .byline{margin-top:.9rem;font-size:.8rem}
+  .byline .avatar{width:34px;height:34px;font-size:.7rem}
+  .feature-post .tlink{margin-top:.9rem}
+  .post{padding:.95rem .2rem;gap:.2rem .8rem}
+  .post:hover{padding-left:.2rem}
+  .post-ex{display:none}
+  .post-tag{font-size:.65rem}
+  .post-title{font-size:1.02rem}
+  .post-meta{font-size:.74rem}
+  .post-arrow{grid-row:2/4;width:36px;height:36px}
+
+  /* FAQ: questions first, help card after */
+  .faq-grid{display:flex;flex-direction:column;gap:0}
+  .faq-side{display:contents}
+  .faq-side > .eyebrow{align-self:flex-start}
+  .faq-list{order:1;margin-top:1.4rem;gap:.5rem}
+  .help{order:2;margin-top:1.1rem;padding:1.15rem}
+  .help p{font-size:.86rem;margin:.3rem 0 .8rem}
+  .help-links{grid-template-columns:1fr 1fr;gap:.5rem}
+  .help-links a{padding:.7rem .65rem;font-size:.8rem;gap:.45rem;border-radius:12px;white-space:nowrap}
+  .help-links svg{width:18px;height:18px}
+  .faq-item{border-radius:14px}
+  .faq-q{padding:.9rem .95rem;gap:.65rem;font-size:.93rem}
+  .faq-n{font-size:.7rem}
+  .faq-ico{width:28px;height:28px}
+  .faq-a p{padding:0 .95rem 1rem;font-size:.88rem;line-height:1.65}
+
+  /* CTA */
+  .cta{padding:.75rem}
+  .cta-panel{padding:3rem 1.25rem;border-radius:24px;transform:none}
+  .cta h2{font-size:clamp(1.9rem,8.6vw,2.3rem);margin:.8rem auto .9rem}
+  .cta-text{font-size:.95rem;margin-bottom:1.5rem}
+  .cta-buttons{display:grid;gap:.6rem}
+  .cta-buttons .btn{width:100%;padding:.95rem 1.2rem;font-size:1rem}
+
+  /* Contact */
+  .contact-grid{gap:1.5rem}
+  .contact-cards{margin-top:1.1rem;gap:.6rem}
+  .ccard{padding:.95rem 1rem;gap:.1rem .8rem;border-radius:14px}
+  .c-ico{width:38px;height:38px}
+  .c-ico svg{width:18px;height:18px}
+  .ccard h3{font-size:.95rem}
+  .ccard p,.ccard a{font-size:.86rem}
+  .form-card{padding:1.3rem 1.05rem 1.2rem;border-radius:var(--r-lg)}
+  .form-card h3{font-size:1.12rem;margin-bottom:1rem}
+  .cform{gap:.55rem}
+  .field label{font-size:.8rem;margin-bottom:.3rem}
+  .field input,.field textarea{padding:.75rem .85rem;font-size:16px;border-radius:10px}
+  .field textarea{min-height:110px}
+  .err{min-height:0;margin-top:.25rem}
+  .err:empty{display:none}
+  .consent{font-size:.82rem}
+  .submit-row .btn{width:100%}
+
+  /* Footer */
+  .footer{padding:3rem 0 1.5rem}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:1.75rem 1.25rem;margin-bottom:1.75rem}
+  .footer-grid > div:first-child,.footer-grid > div:last-child{grid-column:1/-1}
+  .footer .logo-main{font-size:1.4rem}.footer .logo-24{font-size:1.8rem}
+  .footer-desc{font-size:.88rem;margin-top:.9rem;line-height:1.65}
+  .footer h4{font-size:.9rem;margin-bottom:.8rem}
+  .flinks{gap:.5rem;font-size:.86rem}
+  .fcontact{gap:.7rem;font-size:.88rem}
+  .footer-bottom{padding-top:1.25rem;font-size:.78rem}
+
+  /* Quick-action bar */
+  .m-bar{position:fixed;left:.75rem;right:.75rem;bottom:calc(.75rem + env(safe-area-inset-bottom,0px));z-index:900;display:flex;gap:.5rem;padding:.4rem;border-radius:999px;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid var(--g200);box-shadow:0 18px 40px -14px rgba(17,24,39,.4);transform:translateY(160%);visibility:hidden;transition:transform .55s var(--ease),visibility 0s .55s}
+  .m-bar.is-on{transform:none;visibility:visible;transition:transform .55s var(--ease)}
+  .menu-open .m-bar{transform:translateY(160%);visibility:hidden}
+  .m-call{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--red-soft);color:var(--red)}
+  .m-call svg{width:22px;height:22px}
+  .m-cta{flex:1;padding:.85rem 1rem;font-size:.95rem}
+}
+@media (max-width:767px) and (prefers-reduced-motion:reduce){.m-bar{transition:none}}
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;transition-delay:0s!important}
+}
+.rm .reveal,.rm [data-split] .w > span{opacity:1!important;transform:none!important}
+.rm .hero-copy,.rm .hero-stage,.rm .stage-inner{transform:none!important;opacity:1!important}
+.rm .why-grid,.rm .report,.rm .about-frame,.rm .about-frame img,.rm .cta-panel,.rm .fp{transform:none!important}
+.rm .process{clip-path:none}
+.rm .report{transform:rotateX(6deg) rotateY(-8deg)!important}
+</style>
+<script>
+(() => {
+  'use strict';
+  const d = document, root = d.documentElement;
+  root.classList.add('js');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced) root.classList.add('rm');
+  const FINE = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+  const lerp = (a, b, t) => a + (b - a) * t;
+  const $ = (s, c = d) => c.querySelector(s);
+  const $$ = (s, c = d) => Array.from(c.querySelectorAll(s));
+
+  const S = { vh: innerHeight, vw: innerWidth, dirty: true };
+  const readers = [];   // scroll-linked: read phase returns a write fn
+  const frames = [];    // per-frame animations
+
+  function init() {
+    splitText();
+    initLoader();
+    initHeader();
+    initMenu();
+    initAnchors();
+    initHero();
+    initHelix();
+    initTilt();
+    initMagnetic();
+    initScrollLinked();
+    initProcess();
+    initCarousel();
+    initFaq();
+    initForm();
+    initCursor();
+    initMobileBar();
+
+    addEventListener('scroll', () => { S.dirty = true; }, { passive: true });
+    addEventListener('resize', () => { S.vh = innerHeight; S.vw = innerWidth; S.dirty = true; }, { passive: true });
+    requestAnimationFrame(loop);
+  }
+
+  function loop(t) {
+    if (S.dirty) {
+      S.dirty = false;
+      const writes = readers.map(r => r());
+      for (const w of writes) if (w) w();
+    }
+    for (const f of frames) f(t);
+    requestAnimationFrame(loop);
+  }
+
+  /* ---------- Split headings into words ---------- */
+  function splitText() {
+    $$('[data-split]').forEach(el => {
+      let i = 0;
+      const walk = node => {
+        Array.from(node.childNodes).forEach(n => {
+          if (n.nodeType === 3) {
+            const frag = d.createDocumentFragment();
+            n.textContent.split(/(\s+)/).forEach(part => {
+              if (!part) return;
+              if (/^\s+$/.test(part)) { frag.appendChild(d.createTextNode(' ')); return; }
+              const w = d.createElement('span'); w.className = 'w';
+              const s = d.createElement('span'); s.textContent = part; s.style.setProperty('--wi', i++);
+              w.appendChild(s); frag.appendChild(w);
+            });
+            n.replaceWith(frag);
+          } else if (n.nodeType === 1) walk(n);
+        });
+      };
+      walk(el);
+    });
+  }
+
+  /* ---------- Loader → start reveals ---------- */
+  function initLoader() {
+    let started = false;
+    const start = () => {
+      if (started) return; started = true;
+      root.classList.add('is-loaded');
+      setTimeout(() => { const l = $('.loader'); if (l) l.remove(); }, 1300);
+      setTimeout(initReveals, reduced ? 0 : 350);
+    };
+    if (reduced) { start(); return; }
+    const t0 = performance.now();
+    const done = () => setTimeout(start, Math.max(0, 750 - (performance.now() - t0)));
+    if (d.readyState === 'complete') done(); else addEventListener('load', done, { once: true });
+    setTimeout(start, 2000);
+  }
+
+  function initReveals() {
+    const els = $$('.reveal, [data-split]');
+    if (reduced || !('IntersectionObserver' in window)) {
+      els.forEach(e => e.classList.add('is-in'));
+      $$('[data-count]').forEach(el => el.textContent = fmt(+el.dataset.count));
+      setGauge();
+      return;
+    }
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('is-in');
+        io.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.12 });
+    els.forEach(e => io.observe(e));
+
+    // counters — source figures only
+    const counters = $$('[data-count]');
+    counters.forEach(el => { el.textContent = '0'; });
+    const cio = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        countUp(e.target); cio.unobserve(e.target);
+      });
+    }, { threshold: 0.6 });
+    counters.forEach(el => cio.observe(el));
+    setGauge();
+  }
+  const fmt = n => Math.round(n).toLocaleString('en-US');
+  function countUp(el) {
+    const target = +el.dataset.count, dur = 2000, t0 = performance.now();
+    const step = t => {
+      const p = Math.min(1, (t - t0) / dur);
+      const e = p === 1 ? 1 : 1 - Math.pow(2, -10 * p);
+      el.textContent = fmt(target * e);
+      if (p < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+  function setGauge() {
+    const g = $('#gauge'); if (!g) return;
+    g.style.setProperty('--go', 100);
+    requestAnimationFrame(() => requestAnimationFrame(() => g.style.setProperty('--go', 6)));
+  }
+
+  /* ---------- Header: scrolled state, progress, active nav pill ---------- */
+  function initHeader() {
+    const header = $('.site-header'), bar = $('.scroll-progress i');
+    const nav = $('.nav'), pill = $('.nav-pill'), links = $$('.nav a');
+    let active = null;
+    readers.push(() => {
+      const y = scrollY, max = root.scrollHeight - S.vh;
+      return () => {
+        header.classList.toggle('is-scrolled', y > 24);
+        bar.style.transform = `scaleX(${max > 0 ? (y / max).toFixed(4) : 0})`;
+      };
+    });
+    const move = a => {
+      if (!a || getComputedStyle(nav).display === 'none') { pill.style.opacity = 0; return; }
+      const r = a.getBoundingClientRect(), nr = nav.getBoundingClientRect();
+      pill.style.width = r.width + 'px';
+      pill.style.transform = `translateX(${r.left - nr.left}px)`;
+      pill.style.opacity = 1;
+    };
+    links.forEach(a => a.addEventListener('mouseenter', () => move(a)));
+    nav.addEventListener('mouseleave', () => move(active));
+    const setActive = id => {
+      const a = links.find(l => l.hash === '#' + id);
+      if (!a || a === active) return;
+      links.forEach(l => {
+        l.classList.toggle('is-active', l === a);
+        if (l === a) l.setAttribute('aria-current', 'true'); else l.removeAttribute('aria-current');
+      });
+      active = a; move(a);
+    };
+    if ('IntersectionObserver' in window) {
+      const sio = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) setActive(e.target.dataset.nav); }), { rootMargin: '-45% 0px -54% 0px' });
+      $$('[data-nav]').forEach(s => sio.observe(s));
+    }
+    addEventListener('resize', () => move(active));
+    if (d.fonts && d.fonts.ready) d.fonts.ready.then(() => move(active));
+  }
+
+  /* ---------- Mobile menu ---------- */
+  function initMenu() {
+    const btn = $('.menu-btn'), menu = $('#mobileMenu');
+    const set = open => {
+      root.classList.toggle('menu-open', open);
+      btn.setAttribute('aria-expanded', open);
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menu.toggleAttribute('inert', !open);
+      if (open) setTimeout(() => { const f = $('a', menu); if (f) f.focus({ preventScroll: true }); }, 60);
+    };
+    btn.addEventListener('click', () => set(!root.classList.contains('menu-open')));
+    $$('a', menu).forEach(a => a.addEventListener('click', () => set(false)));
+    d.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && root.classList.contains('menu-open')) { set(false); btn.focus(); }
+    });
+    matchMedia('(min-width:1080px)').addEventListener('change', e => { if (e.matches) set(false); });
+  }
+
+  /* ---------- Smooth anchors with header offset + focus management ---------- */
+  function initAnchors() {
+    d.addEventListener('click', e => {
+      const a = e.target.closest('a[href^="#"]');
+      if (!a) return;
+      const id = a.getAttribute('href').slice(1);
+      const t = id && d.getElementById(id);
+      if (!t) return;
+      e.preventDefault();
+      const head = $('.site-header').offsetHeight;
+      const y = id === 'home' ? 0 : t.getBoundingClientRect().top + scrollY - head + 1;
+      scrollTo({ top: y, behavior: reduced ? 'auto' : 'smooth' });
+      try { history.pushState(null, '', '#' + id); } catch (_) {}
+      if (!t.hasAttribute('tabindex')) t.setAttribute('tabindex', '-1');
+      t.focus({ preventScroll: true });
+    });
+  }
+
+  /* ---------- Hero: mouse parallax + scroll exit ---------- */
+  const mouse = { x: 0, y: 0, tx: 0, ty: 0 };
+  let heroVisible = true;
+  function initHero() {
+    const hero = $('.hero'), stageInner = $('.stage-inner'), spot = $('.hero-spot');
+    if ('IntersectionObserver' in window) new IntersectionObserver(es => { heroVisible = es[0].isIntersecting; }).observe(hero);
+    readers.push(() => {
+      const p = clamp(scrollY / S.vh);
+      return () => hero.style.setProperty('--hp', reduced ? 0 : p.toFixed(4));
+    });
+    if (reduced || !FINE) return;
+    hero.addEventListener('pointermove', e => {
+      const r = hero.getBoundingClientRect();
+      mouse.tx = (e.clientX - r.left) / r.width * 2 - 1;
+      mouse.ty = (e.clientY - r.top) / r.height * 2 - 1;
+      spot.style.left = (e.clientX - r.left) + 'px';
+      spot.style.top = (e.clientY - r.top) + 'px';
+    });
+    hero.addEventListener('pointerleave', () => { mouse.tx = 0; mouse.ty = 0; });
+    frames.push(() => {
+      if (!heroVisible) return;
+      mouse.x = lerp(mouse.x, mouse.tx, .06);
+      mouse.y = lerp(mouse.y, mouse.ty, .06);
+      stageInner.style.setProperty('--sx', mouse.x.toFixed(4));
+      stageInner.style.setProperty('--sy', mouse.y.toFixed(4));
+    });
+  }
+
+  /* ---------- Procedural DNA helix (Canvas 2D, no library) ---------- */
+  function initHelix() {
+    const cv = $('#helix'); if (!cv || !cv.getContext) return;
+    const ctx = cv.getContext('2d');
+    let w = 0, h = 0, dpr = 1;
+    const N = 44, TURNS = 2.3, TAU = Math.PI * 2;
+    const pts = [new Array(N), new Array(N)];
+    for (let k = 0; k < 2; k++) for (let i = 0; i < N; i++) pts[k][i] = { x: 0, y: 0, z: 0, f: 1, k };
+    const all = pts[0].concat(pts[1]);
+    const resize = () => {
+      dpr = Math.min(2, devicePixelRatio || 1);
+      w = cv.clientWidth; h = cv.clientHeight;
+      cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+      if (reduced) draw(0);
+    };
+    function draw(t) {
+      if (!w || !h) return;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, w, h);
+      const R = Math.min(w * .26, h * .15), len = h * .9, cx = w / 2, cy = h / 2;
+      const ay = t * .00045 + mouse.x * .6, ax = .22 + mouse.y * .25, az = -.38;
+      const ca = Math.cos(ay), sa = Math.sin(ay), cxa = Math.cos(ax), sxa = Math.sin(ax), cz = Math.cos(az), sz = Math.sin(az);
+      for (let i = 0; i < N; i++) {
+        const s = i / (N - 1), y = (s - .5) * len, ang = s * TURNS * TAU;
+        for (let k = 0; k < 2; k++) {
+          const a = ang + k * Math.PI, x = Math.cos(a) * R, z = Math.sin(a) * R;
+          const x1 = x * ca + z * sa, z1 = -x * sa + z * ca;
+          const y2 = y * cxa - z1 * sxa, z2 = y * sxa + z1 * cxa;
+          const x3 = x1 * cz - y2 * sz, y3 = x1 * sz + y2 * cz;
+          const f = 800 / (800 + z2), p = pts[k][i];
+          p.x = cx + x3 * f; p.y = cy + y3 * f; p.z = z2; p.f = f;
+        }
+      }
+      // rungs
+      ctx.lineWidth = 1.2;
+      for (let i = 0; i < N; i += 2) {
+        const a = pts[0][i], b = pts[1][i], q = clamp(((a.f + b.f) / 2 - .82) / .4);
+        ctx.strokeStyle = `rgba(100,116,139,${(.08 + q * .32).toFixed(3)})`;
+        ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+      }
+      // backbones
+      for (let k = 0; k < 2; k++) {
+        ctx.beginPath();
+        pts[k].forEach((p, i) => i ? ctx.lineTo(p.x, p.y) : ctx.moveTo(p.x, p.y));
+        ctx.strokeStyle = k ? 'rgba(30,58,138,.22)' : 'rgba(220,38,38,.28)';
+        ctx.lineWidth = 1.4; ctx.stroke();
+      }
+      // nucleotides, depth-sorted
+      all.sort((a, b) => b.z - a.z);
+      for (const p of all) {
+        const q = clamp((p.f - .82) / .4), r = 1.3 + q * 3.6;
+        ctx.globalAlpha = .2 + q * .8;
+        ctx.fillStyle = p.k ? '#1e3a8a' : '#dc2626';
+        ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, TAU); ctx.fill();
+        if (q > .78) {
+          ctx.globalAlpha = (q - .78) * .9;
+          ctx.beginPath(); ctx.arc(p.x, p.y, r * 2.6, 0, TAU); ctx.fill();
+        }
+      }
+      ctx.globalAlpha = 1;
+    }
+    if ('ResizeObserver' in window) new ResizeObserver(resize).observe(cv); else addEventListener('resize', resize);
+    resize();
+    if (reduced) { draw(0); return; }
+    frames.push(t => { if (heroVisible) draw(t); });
+  }
+
+  /* ---------- 3D tilt cards ---------- */
+  function initTilt() {
+    if (reduced || !FINE) return;
+    $$('.tilt').forEach(el => {
+      const max = +el.dataset.tilt || 10;
+      let raf = 0;
+      el.addEventListener('pointerenter', () => el.classList.add('is-tilting'));
+      el.addEventListener('pointermove', e => {
+        cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(() => {
+          const r = el.getBoundingClientRect();
+          const px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+          el.style.setProperty('--rx', ((.5 - py) * max).toFixed(2) + 'deg');
+          el.style.setProperty('--ry', ((px - .5) * max).toFixed(2) + 'deg');
+          el.style.setProperty('--mx', (px * 100).toFixed(1) + '%');
+          el.style.setProperty('--my', (py * 100).toFixed(1) + '%');
+        });
+      });
+      el.addEventListener('pointerleave', () => {
+        cancelAnimationFrame(raf);
+        el.classList.remove('is-tilting');
+        el.style.setProperty('--rx', '0deg'); el.style.setProperty('--ry', '0deg');
+      });
+    });
+  }
+
+  /* ---------- Magnetic buttons ---------- */
+  function initMagnetic() {
+    if (reduced || !FINE) return;
+    $$('.magnetic').forEach(el => {
+      el.addEventListener('pointermove', e => {
+        const r = el.getBoundingClientRect();
+        const dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2);
+        el.style.setProperty('--mgx', (dx * .22).toFixed(1) + 'px');
+        el.style.setProperty('--mgy', (dy * .35).toFixed(1) + 'px');
+      });
+      el.addEventListener('pointerleave', () => { el.style.setProperty('--mgx', '0px'); el.style.setProperty('--mgy', '0px'); });
+    });
+  }
+
+  /* ---------- Scroll-linked section choreography ---------- */
+  function initScrollLinked() {
+    if (reduced) return;
+    const link = (sel, fn, prop) => {
+      const el = $(sel); if (!el) return;
+      const target = prop.target ? $(prop.target) : el;
+      readers.push(() => {
+        const r = el.getBoundingClientRect();
+        if (r.bottom < -200 || r.top > S.vh + 200) return null;
+        const v = fn(r);
+        return () => target.style.setProperty(prop.name, v.toFixed(4));
+      });
+    };
+    link('.why-grid', r => clamp((S.vh - r.top) / (S.vh * .75)), { name: '--wp' });
+    link('.about-visual', r => clamp((S.vh - r.top) / (S.vh + r.height)), { name: '--ap', target: '.about-visual' });
+    link('.report-stage', r => clamp(((S.vh - r.top) / (S.vh + r.height)) * 1.7 - .25), { name: '--rp', target: '.report-sec' });
+    link('.cta-panel', r => clamp((S.vh - r.top) / (S.vh * .7)), { name: '--cp' });
+    link('.form-card', r => clamp((S.vh - r.top) / (S.vh * .8)), { name: '--fp' });
+  }
+
+  /* ---------- How it works: pinned journey ---------- */
+  function initProcess() {
+    const sec = $('.process'), drawn = $('#jDrawn'), track = $('#jTrack');
+    const nodes = $$('.j-node'), steps = $$('.step'), stepsEl = $('#steps'), lineFill = $('.steps-line i'), counter = $('#pStep');
+    const pg = $('#jParticles');
+    if (!sec) return;
+    const desk = matchMedia('(min-width:900px)');
+    let L = 900;
+    try { L = track.getTotalLength() || L; } catch (_) {}
+    drawn.style.strokeDasharray = L;
+    drawn.style.strokeDashoffset = L;
+    let dp = 0, visible = false;
+
+    const parts = [];
+    if (!reduced) {
+      for (let i = 0; i < 16; i++) {
+        const c = d.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        c.setAttribute('r', (1.6 + (i % 3) * .8).toFixed(1));
+        c.setAttribute('class', 'j-particle');
+        pg.appendChild(c); parts.push({ c, o: i / 16, s: .05 + (i % 4) * .012 });
+      }
+    }
+    if ('IntersectionObserver' in window) new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(sec);
+
+    let lastActive = -1;
+    readers.push(() => {
+      const r = sec.getBoundingClientRect();
+      let p;
+      if (reduced) p = 1;
+      else if (desk.matches) p = clamp(-r.top / Math.max(1, r.height - S.vh));
+      else { const sr = stepsEl.getBoundingClientRect(); p = clamp((S.vh * .72 - sr.top) / sr.height); }
+      const enter = reduced ? 1 : clamp(1 - r.top / S.vh);
+      return () => {
+        sec.style.setProperty('--enter', enter.toFixed(3));
+        dp = desk.matches && !reduced ? clamp((p - .04) / .8) : p;
+        drawn.style.strokeDashoffset = (L * (1 - dp)).toFixed(1);
+        lineFill.style.setProperty('--pf', dp.toFixed(3));
+        const act = reduced ? 2 : dp >= .97 ? 2 : dp >= .47 ? 1 : 0;
+        if (act !== lastActive) {
+          lastActive = act;
+          steps.forEach((s, i) => s.classList.toggle('is-on', reduced || i <= act));
+          nodes.forEach((n, i) => n.classList.toggle('is-on', reduced || i <= act));
+          counter.textContent = '0' + (act + 1);
+        }
+      };
+    });
+
+    frames.push(t => {
+      if (!visible || !parts.length || !desk.matches) return;
+      const reach = Math.max(.001, dp) * L;
+      for (const p of parts) {
+        const f = ((t * .001 * p.s) + p.o) % 1;
+        const pt = track.getPointAtLength(f * reach);
+        p.c.setAttribute('cx', pt.x.toFixed(1));
+        p.c.setAttribute('cy', (pt.y + Math.sin(t * .003 + p.o * 20) * 4).toFixed(1));
+        p.c.setAttribute('opacity', dp < .02 ? 0 : (.35 + .65 * Math.sin(f * Math.PI)).toFixed(2));
+      }
+    });
+  }
+
+  /* ---------- Testimonials coverflow ---------- */
+  function initCarousel() {
+    const car = $('.tcar'); if (!car) return;
+    const track = $('#tTrack'), cards = $$('.tcard', car), dots = $$('.tdots button', car), n = cards.length;
+    let cur = 0, timer = 0, paused = false, inView = false;
+    const render = () => {
+      cards.forEach((c, i) => {
+        let o = i - cur;
+        if (o > n / 2) o -= n;
+        if (o < -n / 2) o += n;
+        c.style.setProperty('--o', o);
+        c.style.setProperty('--a', Math.abs(o));
+        c.classList.toggle('is-active', o === 0);
+        c.setAttribute('aria-hidden', o !== 0);
+      });
+      dots.forEach((b, i) => { if (i === cur) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+    };
+    const go = (i, user) => {
+      cur = (i + n) % n; render();
+      if (user) { track.setAttribute('aria-live', 'polite'); restart(); }
+    };
+    const restart = () => {
+      clearInterval(timer);
+      if (reduced) return;
+      timer = setInterval(() => { if (!paused && inView && !d.hidden) go(cur + 1); }, 6000);
+    };
+    $$('.tbtn', car).forEach(b => b.addEventListener('click', () => go(cur + +b.dataset.dir, true)));
+    dots.forEach((b, i) => b.addEventListener('click', () => go(i, true)));
+    cards.forEach((c, i) => c.addEventListener('click', () => { if (i !== cur) go(i, true); }));
+    car.addEventListener('pointerenter', () => paused = true);
+    car.addEventListener('pointerleave', () => paused = false);
+    car.addEventListener('focusin', () => paused = true);
+    car.addEventListener('focusout', () => paused = false);
+    car.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight') { go(cur + 1, true); e.preventDefault(); }
+      if (e.key === 'ArrowLeft') { go(cur - 1, true); e.preventDefault(); }
+    });
+    let x0 = null;
+    track.addEventListener('pointerdown', e => { x0 = e.clientX; });
+    track.addEventListener('pointerup', e => {
+      if (x0 === null) return;
+      const dx = e.clientX - x0; x0 = null;
+      if (Math.abs(dx) > 45) go(cur + (dx < 0 ? 1 : -1), true);
+    });
+    if ('IntersectionObserver' in window) new IntersectionObserver(es => { inView = es[0].isIntersecting; }).observe(car);
+    render(); restart();
+  }
+
+  /* ---------- FAQ accordion ---------- */
+  function initFaq() {
+    $$('.faq-q').forEach(b => b.addEventListener('click', () => {
+      const item = b.closest('.faq-item'), open = !item.classList.contains('open');
+      $$('.faq-item.open').forEach(o => { if (o !== item) { o.classList.remove('open'); $('.faq-q', o).setAttribute('aria-expanded', 'false'); } });
+      item.classList.toggle('open', open);
+      b.setAttribute('aria-expanded', open);
+    }));
+  }
+
+  /* ---------- Contact form (posts to the site's Contact Form 7) ---------- */
+  function initForm() {
+    const form = $('#contactForm'); if (!form) return;
+    const btn = $('.btn-send', form);
+    const rules = [
+      { el: $('#f-name'), err: $('#e-name'), test: v => v.trim().length > 0, msg: 'Please fill out this field.' },
+      { el: $('#f-phone'), err: $('#e-phone'), test: v => /^[+()\-\s\d]{7,}$/.test(v.trim()), msg: 'Please enter a valid phone number.' },
+      { el: $('#f-email'), err: $('#e-email'), test: v => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()), msg: 'Please enter a valid email address.' },
+      { el: $('#f-subject'), err: $('#e-subject'), test: v => v.trim().length > 0, msg: 'Please fill out this field.' },
+      { el: $('#f-message'), err: $('#e-message'), test: v => v.trim().length > 0, msg: 'Please fill out this field.' },
+      { el: $('#f-consent'), err: $('#e-consent'), test: (v, el) => el.checked, msg: 'Please accept the Privacy Policy before sending your message.' }
+    ];
+    let tried = false;
+    const check = r => {
+      const ok = r.test(r.el.value, r.el);
+      r.el.closest('.field').classList.toggle('invalid', !ok);
+      r.el.setAttribute('aria-invalid', !ok);
+      r.err.textContent = ok ? '' : r.msg;
+      return ok;
+    };
+    rules.forEach(r => {
+      r.el.addEventListener(r.el.type === 'checkbox' ? 'change' : 'input', () => { if (tried) check(r); });
+      r.el.addEventListener('blur', () => { if (tried) check(r); });
+    });
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      tried = true;
+      const bad = rules.filter(r => !check(r));
+      if (bad.length) { bad[0].el.focus(); return; }
+      $('#akJs').value = Date.now();
+      btn.classList.add('is-sending');
+      btn.disabled = true;
+      $('span', btn).textContent = 'Sending…';
+      setTimeout(() => form.submit(), 450);
+    });
+  }
+
+  /* ---------- Custom cursor (fine pointers only) ---------- */
+  function initCursor() {
+    if (!FINE) return;
+    root.classList.add('has-cursor');
+    const follow = reduced ? 1 : .18;
+    const c = d.createElement('div');
+    c.className = 'cursor'; c.setAttribute('aria-hidden', 'true');
+    c.innerHTML = '<span class="cursor-ring"></span><span class="cursor-dot"></span>';
+    d.body.appendChild(c);
+    const ring = $('.cursor-ring', c), dot = $('.cursor-dot', c);
+    const p = { x: -100, y: -100, rx: -100, ry: -100 };
+    addEventListener('pointermove', e => {
+      if (e.pointerType !== 'mouse') return;
+      p.x = e.clientX; p.y = e.clientY; c.classList.add('is-on');
+      const t = e.target.closest ? e.target : null;
+      c.classList.toggle('is-hover', !!(t && t.closest('a, button, input, textarea, label, .tcard')));
+      c.classList.toggle('is-invert', !!(t && t.closest('.cta-panel, .btn-primary, .btn-send, .m-cta')));
+    }, { passive: true });
+    d.addEventListener('pointerleave', () => c.classList.remove('is-on'));
+    addEventListener('pointerdown', () => c.classList.add('is-down'));
+    addEventListener('pointerup', () => c.classList.remove('is-down'));
+    frames.push(() => {
+      p.rx = lerp(p.rx, p.x, follow); p.ry = lerp(p.ry, p.y, follow);
+      dot.style.transform = `translate3d(${p.x}px,${p.y}px,0)`;
+      ring.style.transform = `translate3d(${p.rx.toFixed(1)}px,${p.ry.toFixed(1)}px,0)`;
+    });
+  }
+
+  /* ---------- Phone quick-action bar ---------- */
+  function initMobileBar() {
+    const bar = $('.m-bar'), trigger = $('.hero-actions');
+    if (!bar || !trigger || !('IntersectionObserver' in window)) return;
+    let pastHero = false;
+    const ends = new Map();
+    const update = () => {
+      const on = pastHero && ![...ends.values()].some(Boolean);
+      bar.classList.toggle('is-on', on);
+      bar.toggleAttribute('inert', !on);
+    };
+    new IntersectionObserver(([e]) => {
+      pastHero = !e.isIntersecting && e.boundingClientRect.top < 0;
+      update();
+    }).observe(trigger);
+    const endIO = new IntersectionObserver(es => {
+      es.forEach(e => ends.set(e.target, e.isIntersecting));
+      update();
+    });
+    ['#cta', '#contact', '.footer'].forEach(s => { const el = $(s); if (el) { ends.set(el, false); endIO.observe(el); } });
+  }
+
+  if (d.readyState === 'loading') d.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- LOADER -->
+<div class="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <span class="logo-text"><span class="logo-main">SecondOpinion</span><span class="logo-24">24</span></span>
+    <span class="loader-bar"><i></i></span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo" aria-label="SecondOpinion24 Medical Experts — home">
+      <span class="logo-text"><span class="logo-main">SecondOpinion</span><span class="logo-24">24</span></span>
+      <span class="logo-tagline">Medical Experts</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <span class="nav-pill" aria-hidden="true"></span>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#blog">Blog</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="https://secondopinion24.com/login/" class="btn btn-outline btn-sm"><span>Login</span></a>
+      <a href="https://secondopinion24.com/register/" class="btn btn-primary btn-sm magnetic"><span>Sign Up</span></a>
+    </div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" inert>
+  <nav aria-label="Mobile">
+    <a href="#home" style="--i:0"><small>01</small>Home</a>
+    <a href="#services" style="--i:1"><small>02</small>Services</a>
+    <a href="#about" style="--i:2"><small>03</small>About Us</a>
+    <a href="#blog" style="--i:3"><small>04</small>Blog</a>
+    <a href="#faq" style="--i:4"><small>05</small>FAQ</a>
+    <a href="#contact" style="--i:5"><small>06</small>Contact</a>
+  </nav>
+  <div class="mobile-menu-actions">
+    <a href="https://secondopinion24.com/login/" class="btn btn-outline"><span>Login</span></a>
+    <a href="https://secondopinion24.com/register/" class="btn btn-primary"><span>Sign Up</span></a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home" data-nav="home">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-grid"></div>
+    <div class="hero-floor"></div>
+    <div class="hero-spot"></div>
+  </div>
+
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="hero-badge reveal" style="--d:100ms"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></b>Ethical Medical Second Opinions</span>
+      <h1 data-split style="--d:200ms">
+        <span class="line">Clarity before treatment.</span>
+        <span class="line accent">Confidence before action.</span>
+      </h1>
+      <p class="hero-desc reveal" style="--d:650ms">Get expert medical advice, transparent treatment options, and insurance guidance — all in one place. Connect with 100+ verified super-specialists.</p>
+      <div class="hero-actions reveal" style="--d:800ms">
+        <a href="https://secondopinion24.com/register/" class="btn btn-primary btn-lg magnetic"><span>Get Your Second Opinion Now</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a href="#contact" class="btn btn-outline btn-lg magnetic"><span>Speak to Coordinator</span></a>
+      </div>
+      <ul class="hero-meta reveal" style="--d:950ms" aria-label="Highlights">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>HIPAA-compliant portal</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Expert opinion within 24–48 hours</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>Board-certified specialists</li>
+      </ul>
+    </div>
+
+    <div class="reveal" data-reveal="zoom" style="--d:300ms">
+    <div class="hero-stage">
+      <div class="stage-inner">
+        <div class="layer helix" aria-hidden="true"><canvas id="helix"></canvas></div>
+        <div class="layer orbits" aria-hidden="true">
+          <div class="orbit"><i></i></div>
+          <div class="orbit"><i></i></div>
+          <div class="orbit"></div>
+        </div>
+        <figure class="layer hero-photo">
+          <img src="https://admin.storebox.ai/media/e7227689-bcb9-47df-8af9-478fcdd3bc3f/08c4bf86-76b5-4827-be23-6c04106cce00/Second-Opinion-24.webp" data-fallback="https://secondopinion24.com/wp-content/uploads/2025/12/Second-Opinion-24.webp" onerror="this.onerror=null;this.src=this.dataset.fallback" alt="Doctor and patient handshake" width="1280" height="853" fetchpriority="high" decoding="async">
+          <span class="scanline" aria-hidden="true"></span>
+          <span class="hud tl" aria-hidden="true"></span><span class="hud tr" aria-hidden="true"></span><span class="hud bl" aria-hidden="true"></span><span class="hud br" aria-hidden="true"></span>
+        </figure>
+        <div class="layer p-ecg">
+          <div class="panel">
+            <div class="p-head"><span>Expert Review</span><span class="p-live">Step 02</span></div>
+            <div class="p-title">Expert insights within 24–48 hours</div>
+            <div class="p-sub">Reviewed by experienced specialists</div>
+            <svg class="ecg" viewBox="0 0 240 46" preserveAspectRatio="none" aria-hidden="true">
+              <path class="ecg-bg" d="M0 26 H60 L70 26 L78 8 L88 42 L96 18 L102 26 H150 L158 26 L166 4 L176 44 L184 16 L190 26 H240"/>
+              <path d="M0 26 H60 L70 26 L78 8 L88 42 L96 18 L102 26 H150 L158 26 L166 4 L176 44 L184 16 L190 26 H240"/>
+            </svg>
+          </div>
+        </div>
+        <div class="layer p-claim">
+          <div class="panel">
+            <svg class="gauge" viewBox="0 0 58 58" aria-hidden="true"><circle class="g-bg" cx="29" cy="29" r="24"/><circle class="g-fg" id="gauge" cx="29" cy="29" r="24" pathLength="100"/></svg>
+            <div><strong><span data-count="94">94</span>%</strong><span class="lbl">Insurance Claim Success</span></div>
+          </div>
+        </div>
+        <div class="layer p-secure">
+          <div class="panel"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></b>HIPAA-compliant portal</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#stats" aria-label="Scroll to content"><i></i>Scroll</a>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats" id="stats" data-nav="home" aria-label="SecondOpinion24 in numbers">
+  <div class="container">
+    <div class="stats-band reveal">
+      <div class="stat">
+        <div class="stat-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-4-4h-1M9 20H2v-2a4 4 0 014-4h1m6-4a4 4 0 11-8 0 4 4 0 018 0z"/></svg></div>
+        <div class="stat-num"><span data-count="50000">50,000</span><small>+</small></div>
+        <div class="stat-label">Patients Served</div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 11a4 4 0 100-8 4 4 0 000 8zm6 9v-1a5 5 0 00-5-5h-2a5 5 0 00-5 5v1h12z"/></svg></div>
+        <div class="stat-num"><span data-count="500">500</span><small>+</small></div>
+        <div class="stat-label">Medical Experts</div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
+        <div class="stat-num"><span data-count="98">98</span><small>%</small></div>
+        <div class="stat-label">Satisfaction Rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat-icon"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <div class="stat-num"><span data-count="48">48</span><small> hrs</small></div>
+        <div class="stat-label">Average Response</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services" data-nav="services">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Our Services</span>
+      <h2 class="h-sec" data-split>Medical Specialties <em>We Cover</em></h2>
+      <p class="lead reveal" style="--d:200ms">Our network includes specialists from every major medical discipline, ready to provide expert opinions on your case.</p>
+    </div>
+
+    <div class="spec-grid">
+      <!-- Oncology -->
+      <div class="reveal" data-reveal="flip" style="--i:0">
+        <a href="https://secondopinion24.com/register/" class="spec-card tilt" data-tint="pink">
+          <span class="spec-glare" aria-hidden="true"></span>
+          <span class="spec-top"><span class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 4c5 2 5 10 10 12M17 4c-5 2-5 10-10 12"/></svg></span><span class="spec-num">01</span></span>
+          <h3 class="spec-title">Oncology</h3>
+          <div class="spec-body">
+            <p class="spec-desc">Expert cancer diagnosis review and treatment recommendations</p>
+            <ul class="spec-list"><li>Cancer diagnosis verification</li><li>Treatment plan review</li><li>Clinical trial recommendations</li><li>Genetic testing guidance</li></ul>
+          </div>
+          <span class="spec-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <svg class="spec-ghost" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M7 4c5 2 5 10 10 12M17 4c-5 2-5 10-10 12"/></svg>
+        </a>
+      </div>
+      <!-- Cardiology -->
+      <div class="reveal" data-reveal="flip" style="--i:1">
+        <a href="https://secondopinion24.com/register/" class="spec-card tilt" data-tint="blue">
+          <span class="spec-glare" aria-hidden="true"></span>
+          <span class="spec-top"><span class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l2-5 4 10 2-5h4"/></svg></span><span class="spec-num">02</span></span>
+          <h3 class="spec-title">Cardiology</h3>
+          <div class="spec-body">
+            <p class="spec-desc">Heart condition analysis and treatment plan evaluation</p>
+            <ul class="spec-list"><li>Heart disease diagnosis</li><li>Surgical recommendations</li><li>Medication review</li><li>Lifestyle guidance</li></ul>
+          </div>
+          <span class="spec-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <svg class="spec-ghost" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M3 12h4l2-5 4 10 2-5h4"/></svg>
+        </a>
+      </div>
+      <!-- Neurology -->
+      <div class="reveal" data-reveal="flip" style="--i:2">
+        <a href="https://secondopinion24.com/register/" class="spec-card tilt" data-tint="yellow">
+          <span class="spec-glare" aria-hidden="true"></span>
+          <span class="spec-top"><span class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4a3 3 0 00-3 3v2a3 3 0 000 6v2a3 3 0 003 3"/><path d="M15 4a3 3 0 013 3v2a3 3 0 010 6v2a3 3 0 01-3 3"/></svg></span><span class="spec-num">03</span></span>
+          <h3 class="spec-title">Neurology</h3>
+          <div class="spec-body">
+            <p class="spec-desc">Neurological disorder assessment and care guidance</p>
+            <ul class="spec-list"><li>Brain &amp; spine conditions</li><li>Movement disorders</li><li>Epilepsy evaluation</li><li>Multiple sclerosis review</li></ul>
+          </div>
+          <span class="spec-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <svg class="spec-ghost" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M9 4a3 3 0 00-3 3v2a3 3 0 000 6v2a3 3 0 003 3"/><path pathLength="1" d="M15 4a3 3 0 013 3v2a3 3 0 010 6v2a3 3 0 01-3 3"/></svg>
+        </a>
+      </div>
+      <!-- Orthopedics -->
+      <div class="reveal" data-reveal="flip" style="--i:3">
+        <a href="https://secondopinion24.com/register/" class="spec-card tilt" data-tint="mint">
+          <span class="spec-glare" aria-hidden="true"></span>
+          <span class="spec-top"><span class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a2 2 0 114 0v8a2 2 0 11-4 0"/><path d="M14 8a2 2 0 114 0v8a2 2 0 11-4 0"/></svg></span><span class="spec-num">04</span></span>
+          <h3 class="spec-title">Orthopedics</h3>
+          <div class="spec-body">
+            <p class="spec-desc">Musculoskeletal condition review and surgical opinions</p>
+            <ul class="spec-list"><li>Joint replacement evaluation</li><li>Spine surgery review</li><li>Sports injury assessment</li><li>Arthritis management</li></ul>
+          </div>
+          <span class="spec-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <svg class="spec-ghost" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6 8a2 2 0 114 0v8a2 2 0 11-4 0"/><path pathLength="1" d="M14 8a2 2 0 114 0v8a2 2 0 11-4 0"/></svg>
+        </a>
+      </div>
+      <!-- Pathology -->
+      <div class="reveal" data-reveal="flip" style="--i:4">
+        <a href="https://secondopinion24.com/register/" class="spec-card tilt" data-tint="lav">
+          <span class="spec-glare" aria-hidden="true"></span>
+          <span class="spec-top"><span class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 18h12"/><path d="M10 14l4-4"/><path d="M9 3l6 6"/></svg></span><span class="spec-num">05</span></span>
+          <h3 class="spec-title">Pathology</h3>
+          <div class="spec-body">
+            <p class="spec-desc">Laboratory test and biopsy result verification</p>
+            <ul class="spec-list"><li>Biopsy review</li><li>Blood test analysis</li><li>Tissue examination</li><li>Diagnostic confirmation</li></ul>
+          </div>
+          <span class="spec-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <svg class="spec-ghost" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6 18h12"/><path pathLength="1" d="M10 14l4-4"/><path pathLength="1" d="M9 3l6 6"/></svg>
+        </a>
+      </div>
+      <!-- Radiology -->
+      <div class="reveal" data-reveal="flip" style="--i:5">
+        <a href="https://secondopinion24.com/register/" class="spec-card tilt" data-tint="peach">
+          <span class="spec-glare" aria-hidden="true"></span>
+          <span class="spec-top"><span class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v18M18 3v18"/><path d="M9 6l6 12M15 6l-6 12"/></svg></span><span class="spec-num">06</span></span>
+          <h3 class="spec-title">Radiology</h3>
+          <div class="spec-body">
+            <p class="spec-desc">Medical imaging interpretation and analysis</p>
+            <ul class="spec-list"><li>MRI interpretation</li><li>CT scan review</li><li>X-ray analysis</li><li>Ultrasound evaluation</li></ul>
+          </div>
+          <span class="spec-link">Learn More <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <svg class="spec-ghost" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6 3v18M18 3v18"/><path pathLength="1" d="M9 6l6 12M15 6l-6 12"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <p class="swipe-hint" aria-hidden="true">Swipe for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></p>
+
+    <div class="also reveal">
+      <span class="also-label">Also covering</span>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Pediatrics</span><span>Ophthalmology</span><span>ENT</span><span>General Surgery</span><span>Internal Medicine</span><span>Pulmonology</span>
+          <span>Pediatrics</span><span>Ophthalmology</span><span>ENT</span><span>General Surgery</span><span>Internal Medicine</span><span>Pulmonology</span>
+        </div>
+      </div>
+      <span class="sr-only">Pediatrics, Ophthalmology, ENT, General Surgery, Internal Medicine, Pulmonology, and many more.</span>
+      <a class="btn btn-outline btn-sm" href="https://secondopinion24.com/services/"><span>All services</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="why" id="why" data-nav="services">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Why Choose Us</span>
+      <h2 class="h-sec" data-split>Second Opinion <em>Advantages</em></h2>
+    </div>
+    <div class="why-grid">
+      <!-- Confidential -->
+      <article class="feat feat-pink reveal" style="--i:0">
+        <svg class="viz v-shield" viewBox="0 0 200 160" aria-hidden="true">
+          <circle class="ring2" cx="100" cy="80" r="56"/>
+          <circle class="ring" cx="100" cy="80" r="68"/>
+          <g class="lock">
+            <path class="stroke draw" pathLength="1" stroke-width="1" transform="translate(70 50) scale(2.5)" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </g>
+        </svg>
+        <div class="cipher" aria-hidden="true"><span>7F 3A C9 E2 1B 94 D0 5E 8C 2F 7F 3A C9 E2 1B 94 D0 5E 8C 2F </span></div>
+        <h3>100% Confidential</h3>
+        <p>Your medical information is protected with enterprise-grade security</p>
+      </article>
+      <!-- Fast Turnaround -->
+      <article class="feat feat-blue reveal" style="--i:1">
+        <svg class="viz v-clock" viewBox="0 0 200 160" aria-hidden="true">
+          <circle class="ticks" cx="100" cy="80" r="62"/>
+          <circle class="track" cx="100" cy="80" r="48"/>
+          <circle class="arc" cx="100" cy="80" r="48" pathLength="1"/>
+          <g class="hand"><circle cx="100" cy="80" r="40" fill="none"/><line x1="100" y1="80" x2="100" y2="44" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></g>
+          <g class="hand2"><circle cx="100" cy="80" r="40" fill="none"/><line x1="100" y1="80" x2="124" y2="80" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></g>
+          <circle cx="100" cy="80" r="5" fill="#dc2626"/>
+        </svg>
+        <span class="v-tag" aria-hidden="true">24–48 hrs</span>
+        <h3>Fast Turnaround</h3>
+        <p>Receive your expert opinion within 24–48 hours</p>
+      </article>
+      <!-- Top Specialists -->
+      <article class="feat feat-yellow reveal" style="--i:2">
+        <svg class="viz v-globe" viewBox="0 0 200 160" aria-hidden="true">
+          <circle class="o" cx="100" cy="80" r="58"/>
+          <ellipse class="mer" cx="100" cy="80" rx="58" ry="58"/>
+          <ellipse class="mer" cx="100" cy="80" rx="58" ry="58"/>
+          <ellipse class="mer" cx="100" cy="80" rx="58" ry="58"/>
+          <ellipse class="lat" cx="100" cy="80" rx="58" ry="12"/>
+          <ellipse class="lat" cx="100" cy="52" rx="48" ry="8"/>
+          <ellipse class="lat" cx="100" cy="108" rx="48" ry="8"/>
+          <path class="arcs" d="M66 62 Q100 20 136 58 M136 58 Q150 96 116 112 M116 112 Q78 124 66 62"/>
+          <g><circle class="node" cx="66" cy="62" r="4.5"/><circle class="node" cx="136" cy="58" r="4.5"/><circle class="node" cx="116" cy="112" r="4.5"/><circle class="node" cx="98" cy="84" r="3.5"/></g>
+        </svg>
+        <h3>Top Specialists</h3>
+        <p>Access physicians from leading medical institutions worldwide</p>
+      </article>
+      <!-- Board Certified -->
+      <article class="feat feat-mint reveal" style="--i:3">
+        <svg class="viz v-seal" viewBox="0 0 200 160" aria-hidden="true">
+          <defs><path id="sealPath" d="M100,80 m-62,0 a62,62 0 1,1 124,0 a62,62 0 1,1 -124,0"/></defs>
+          <g class="seal-rot"><circle cx="100" cy="80" r="72" fill="none"/><text class="seal-text"><textPath href="#sealPath">BOARD CERTIFIED • BOARD CERTIFIED • </textPath></text></g>
+          <circle class="disc" cx="100" cy="80" r="46"/>
+          <path class="stroke draw" pathLength="1" stroke-width="1.05" transform="translate(73 53) scale(2.25)" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+        </svg>
+        <h3>Board Certified</h3>
+        <p>All our experts are board-certified in their specialties</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about" data-nav="about">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow reveal">About SecondOpinion24</span>
+      <h2 class="h-sec" data-split>Empowering Patients with <em>Expert Medical Guidance</em></h2>
+      <p class="lead reveal" style="--d:200ms">We connect patients worldwide with leading medical specialists to provide clarity, confidence, and peace of mind in their healthcare journey.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-copy">
+        <span class="eyebrow reveal">Our Story</span>
+        <h3 class="story-title" data-split>Founded on a Mission to Transform Healthcare Access</h3>
+        <p class="reveal">SecondOpinion24 was born from a simple yet powerful belief: every patient deserves access to world-class medical expertise, regardless of their location or circumstances.</p>
+        <p class="reveal" style="--i:1">Our founders—experienced physicians and healthcare innovators—witnessed firsthand how a second opinion could change the course of treatment and save lives. This inspired the creation of a trusted global platform that connects patients with leading specialists worldwide.</p>
+        <ul class="facts">
+          <li class="reveal" style="--i:2"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></b>Founded in 2018 by leading physicians</li>
+          <li class="reveal" style="--i:3"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></b>Trusted by over 50,000 patients worldwide</li>
+          <li class="reveal" style="--i:4"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></b>Network of 500+ board-certified medical specialists</li>
+        </ul>
+      </div>
+      <div class="about-visual reveal" data-reveal="right">
+        <div class="about-frame">
+          <img src="https://admin.storebox.ai/media/e7227689-bcb9-47df-8af9-478fcdd3bc3f/3013a699-64b0-4b54-b503-569a3db65a45/services-hero.jpg" data-fallback="https://secondopinion24.com/wp-content/uploads/2026/01/vitaly-gariev-vJHBwF4-DW0-unsplash.jpg" onerror="this.onerror=null;this.src=this.dataset.fallback" alt="Two doctors reviewing a medical scan on a tablet" width="640" height="360" loading="lazy" decoding="async">
+          <span class="grid-ov" aria-hidden="true"></span>
+        </div>
+        <div class="about-chip"><strong>2018</strong><span>Founded by<br>leading physicians</span></div>
+        <div class="about-chip about-chip2"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></b><span>Privacy &amp; Security<br>HIPAA compliance</span></div>
+      </div>
+    </div>
+
+    <div class="values">
+      <div class="sec-head">
+        <span class="eyebrow reveal">Our Values</span>
+        <h2 class="h-sec" data-split>What Drives Us <em>Every Day</em></h2>
+        <p class="lead reveal" style="--d:200ms">Our core values guide every decision we make and every interaction we have with our patients.</p>
+      </div>
+      <div class="values-grid reveal">
+        <div class="value"><span class="value-n">01</span><h4>Patient-Centered Care</h4><p>Every decision we make puts the patient first. Your health and well-being are our top priority.</p></div>
+        <div class="value"><span class="value-n">02</span><h4>Trust &amp; Transparency</h4><p>We believe in complete honesty and transparency in all our communications and recommendations.</p></div>
+        <div class="value"><span class="value-n">03</span><h4>Medical Excellence</h4><p>We partner only with the most qualified, board-certified specialists from leading institutions.</p></div>
+        <div class="value"><span class="value-n">04</span><h4>Timely Response</h4><p>We understand the urgency of medical decisions. Our team works tirelessly to deliver fast results.</p></div>
+        <div class="value"><span class="value-n">05</span><h4>Global Access</h4><p>Healthcare expertise should know no borders. We serve patients from over 40 countries.</p></div>
+        <div class="value"><span class="value-n">06</span><h4>Privacy &amp; Security</h4><p>Your medical information is protected with enterprise-grade security and HIPAA compliance.</p></div>
+      </div>
+      <p class="swipe-hint" aria-hidden="true">Swipe for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></p>
+    </div>
+
+    <div class="team">
+      <div class="sec-head">
+        <span class="eyebrow reveal">Leadership Team</span>
+        <h2 class="h-sec" data-split>Meet Our <em>Experts</em></h2>
+        <p class="lead reveal" style="--d:200ms">Our leadership team brings together medical excellence, operational strength, and a shared mission to deliver trusted second opinions worldwide.</p>
+      </div>
+      <div class="team-grid">
+        <article class="reveal" data-reveal="flip" style="--i:0"><div class="member tilt" data-tilt="8"><div class="avatar-ring"><span>GK</span></div><h4>Mr. Ganesh Kandalkar</h4><span class="role">Founder &amp; Managing Director</span><p>Healthcare entrepreneur and visionary leader driving the mission of making expert medical second opinions accessible to patients globally.</p></div></article>
+        <article class="reveal" data-reveal="flip" style="--i:1"><div class="member tilt" data-tilt="8"><div class="avatar-ring"><span>SP</span></div><h4>Dr. Satyajeet Pattnaik</h4><span class="role">Senior Medical Advisor</span><p>Renowned physician providing clinical oversight and ensuring the highest standards of medical accuracy and ethical patient care.</p></div></article>
+        <article class="reveal" data-reveal="flip" style="--i:2"><div class="member tilt" data-tilt="8"><div class="avatar-ring"><span>PN</span></div><h4>Dr. Pramod Nair</h4><span class="role">Consulting Specialist &amp; Clinical Lead</span><p>Experienced specialist guiding complex case reviews and coordinating expert opinions across multiple medical disciplines.</p></div></article>
+        <article class="reveal" data-reveal="flip" style="--i:3"><div class="member tilt" data-tilt="8"><div class="avatar-ring"><span>KR</span></div><h4>Dr. Kapil Rathi</h4><span class="role">Director – Patient Care &amp; Quality</span><p>Focused on patient experience, data privacy, and quality assurance to ensure reliable, secure, and compassionate healthcare services.</p></div></article>
+      </div>
+      <p class="swipe-hint" aria-hidden="true">Swipe for more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="process dark" id="process" data-nav="services">
+  <div class="process-sticky">
+    <div class="process-grid-bg" aria-hidden="true"></div>
+    <div class="container">
+      <div class="sec-head">
+        <span class="eyebrow reveal">How It Works</span>
+        <h2 class="h-sec" data-split>Simple <em>3-Step</em> Process</h2>
+        <span class="p-counter" aria-hidden="true">STEP <b id="pStep">01</b> / 03</span>
+      </div>
+
+      <svg class="journey" viewBox="0 0 1200 260" aria-hidden="true">
+        <defs><linearGradient id="jg" x1="0" x2="1"><stop offset="0" stop-color="#dc2626"/><stop offset=".5" stop-color="#f87171"/><stop offset="1" stop-color="#dc2626"/></linearGradient></defs>
+        <path class="j-ext" d="M20 130 H200 M1000 130 H1180"/>
+        <path id="jTrack" class="j-track" d="M200 130 C 333 30, 467 230, 600 130 S 867 230, 1000 130"/>
+        <path id="jDrawn" class="j-drawn" d="M200 130 C 333 30, 467 230, 600 130 S 867 230, 1000 130"/>
+        <g id="jParticles"></g>
+        <g class="j-node" transform="translate(200 130)"><circle class="j-halo" r="46"/><circle class="j-ring" r="30"/><circle class="j-core" r="22"/><text y="5">01</text></g>
+        <g class="j-node" transform="translate(600 130)"><circle class="j-halo" r="46"/><circle class="j-ring" r="30"/><circle class="j-core" r="22"/><text y="5">02</text></g>
+        <g class="j-node" transform="translate(1000 130)"><circle class="j-halo" r="46"/><circle class="j-ring" r="30"/><circle class="j-core" r="22"/><text y="5">03</text></g>
+      </svg>
+
+      <div class="steps" id="steps" role="list">
+        <span class="steps-line" aria-hidden="true"><i></i></span>
+        <div class="step" role="listitem">
+          <svg class="ill" viewBox="0 0 150 100" aria-hidden="true">
+            <rect class="doc" x="30" y="8" width="62" height="82" rx="8"/>
+            <path class="ln" d="M42 28h38M42 40h38M42 52h24"/>
+            <g class="ill-up"><circle class="badge" cx="104" cy="68" r="20"/><path class="w" d="M104 77V60M97 66l7-7 7 7"/></g>
+          </svg>
+          <span class="step-n">STEP 01</span>
+          <h3>Submit Your Case</h3>
+          <p>Upload your medical records, test results, and all relevant documents securely through our HIPAA-compliant portal.</p>
+        </div>
+        <div class="step" role="listitem">
+          <svg class="ill" viewBox="0 0 150 100" aria-hidden="true">
+            <rect class="doc" x="30" y="8" width="62" height="82" rx="8"/>
+            <path class="ln" d="M42 28h38M42 40h38M42 52h38M42 64h24"/>
+            <rect class="scanbar" x="34" y="18" width="54" height="3" rx="1.5"/>
+            <g class="ill-mag"><circle cx="86" cy="44" r="15" fill="rgba(15,23,42,.6)" stroke="#fff" stroke-width="2.6"/><path class="w" d="M97 55l12 12"/></g>
+          </svg>
+          <span class="step-n">STEP 02</span>
+          <h3>Expert Review</h3>
+          <p>Our experienced specialists thoroughly review your case and provide expert insights within 24–48 hours.</p>
+        </div>
+        <div class="step" role="listitem">
+          <svg class="ill" viewBox="0 0 150 100" aria-hidden="true">
+            <rect class="doc" x="30" y="8" width="62" height="82" rx="8"/>
+            <path class="ln" d="M42 28h38M42 40h38M42 52h24"/>
+            <circle class="badge" cx="104" cy="68" r="20"/><path class="w chk" pathLength="1" d="M95 68l6 6 12-12"/>
+          </svg>
+          <span class="step-n">STEP 03</span>
+          <h3>Receive Your Opinion</h3>
+          <p>Get a detailed second-opinion report with clear diagnosis validation, treatment guidance, and next steps.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHAT'S INCLUDED / REPORT ================= -->
+<section class="report-sec" id="report" data-nav="services">
+  <div class="container report-grid">
+    <div>
+      <span class="eyebrow reveal">What's Included</span>
+      <h2 class="h-sec" data-split>How We Deliver Your <em>Second Opinion</em></h2>
+      <p class="lead reveal" style="--d:200ms">Get a detailed second-opinion report with clear diagnosis validation, treatment guidance, and next steps.</p>
+      <ul class="incl reveal">
+        <li style="--i:0"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Complete review of all medical records</li>
+        <li style="--i:1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Analysis by board-certified specialist</li>
+        <li style="--i:2"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Written comprehensive report</li>
+        <li style="--i:3"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Treatment recommendations</li>
+        <li style="--i:4"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Clinical trial information (if applicable)</li>
+        <li style="--i:5"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Follow-up consultation option</li>
+        <li style="--i:6"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Direct communication with specialist</li>
+        <li style="--i:7"><svg viewBox="0 0 24 24" aria-hidden="true"><circle class="c-bg" cx="12" cy="12" r="12"/><path class="c-ck" pathLength="1" d="M7 12.5l3.2 3.2L17 9"/></svg>Lifetime access to your report</li>
+      </ul>
+      <div class="report-cta reveal"><a href="https://secondopinion24.com/register/" class="btn btn-primary btn-lg magnetic"><span>Get Your Second Opinion</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+    </div>
+
+    <div class="report-stage reveal" data-reveal="zoom" aria-hidden="true">
+      <div class="report">
+        <div class="report-head">
+          <span class="logo"><span class="logo-text"><span class="logo-main">SecondOpinion</span><span class="logo-24">24</span></span><span class="logo-tagline">Medical Experts</span></span>
+          <span class="report-tag">Second-Opinion Report</span>
+        </div>
+        <div class="r-sec"><span class="r-label"><i></i>Diagnosis validation</span><span class="sk w95"></span><span class="sk w80"></span><span class="sk w60"></span></div>
+        <div class="r-sec"><span class="r-label"><i></i>Treatment guidance</span><span class="sk w95"></span><span class="sk w70"></span></div>
+        <div class="r-sec"><span class="r-label"><i></i>Next steps</span><span class="sk w80"></span><span class="sk w45"></span></div>
+        <div class="r-sign">
+          <svg viewBox="0 0 120 40"><path pathLength="1" d="M4 30 C 16 6, 22 6, 26 26 S 40 36, 46 18 S 60 4, 64 24 S 78 34, 86 20 L 116 22"/></svg>
+          <span class="r-stamp">Board<br>Certified<br>Review</span>
+        </div>
+        <span class="r-scan"></span>
+      </div>
+      <div class="fp fp1"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></b>Board-certified specialist</div>
+      <div class="fp fp2"><b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></b>Written comprehensive report</div>
+      <div class="fp fp3"><svg class="mini-ecg" viewBox="0 0 110 30" preserveAspectRatio="none"><path d="M0 18 H30 L36 18 L42 4 L50 28 L56 10 L60 18 H110"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="testimonials" data-nav="about">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Testimonials</span>
+      <h2 class="h-sec" data-split>What Our <em>Patients Say</em></h2>
+    </div>
+
+    <div class="tcar reveal" role="region" aria-roledescription="carousel" aria-label="Patient testimonials">
+      <div class="tcar-track" id="tTrack" aria-live="off">
+        <figure class="tcard" data-tint="pink" role="group" aria-roledescription="slide" aria-label="1 of 5">
+          <svg class="tq" viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><path d="M20 12C11.7 14.4 6 21 6 29.5 6 35 9.4 38 13.6 38c3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9zm22 0c-8.3 2.4-14 9-14 17.5 0 5.5 3.4 8.5 7.6 8.5 3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9z"/></svg>
+          <blockquote><p>“The second opinion I received changed the course of my treatment. I'm forever grateful.”</p></blockquote>
+          <figcaption><span class="avatar">SM</span><span><strong>Sarah M.</strong><span>Cancer Survivor</span></span></figcaption>
+        </figure>
+        <figure class="tcard" data-tint="blue" role="group" aria-roledescription="slide" aria-label="2 of 5">
+          <svg class="tq" viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><path d="M20 12C11.7 14.4 6 21 6 29.5 6 35 9.4 38 13.6 38c3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9zm22 0c-8.3 2.4-14 9-14 17.5 0 5.5 3.4 8.5 7.6 8.5 3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9z"/></svg>
+          <blockquote><p>“Within 48 hours, I had a review from a top cardiologist. Peace of mind indeed.”</p></blockquote>
+          <figcaption><span class="avatar">MR</span><span><strong>Michael R.</strong><span>Heart Patient</span></span></figcaption>
+        </figure>
+        <figure class="tcard" data-tint="yellow" role="group" aria-roledescription="slide" aria-label="3 of 5">
+          <svg class="tq" viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><path d="M20 12C11.7 14.4 6 21 6 29.5 6 35 9.4 38 13.6 38c3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9zm22 0c-8.3 2.4-14 9-14 17.5 0 5.5 3.4 8.5 7.6 8.5 3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9z"/></svg>
+          <blockquote><p>“Professional, thorough, and compassionate. Truly world-class specialists.”</p></blockquote>
+          <figcaption><span class="avatar">JL</span><span><strong>Jennifer L.</strong><span>Neurology Patient</span></span></figcaption>
+        </figure>
+        <figure class="tcard" data-tint="mint" role="group" aria-roledescription="slide" aria-label="4 of 5">
+          <svg class="tq" viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><path d="M20 12C11.7 14.4 6 21 6 29.5 6 35 9.4 38 13.6 38c3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9zm22 0c-8.3 2.4-14 9-14 17.5 0 5.5 3.4 8.5 7.6 8.5 3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9z"/></svg>
+          <blockquote><p>“Clear, ethical advice helped my family take the right medical decision.”</p></blockquote>
+          <figcaption><span class="avatar">AR</span><span><strong>Amit R.</strong><span>Surgical Review</span></span></figcaption>
+        </figure>
+        <figure class="tcard" data-tint="lav" role="group" aria-roledescription="slide" aria-label="5 of 5">
+          <svg class="tq" viewBox="0 0 48 48" fill="currentColor" aria-hidden="true"><path d="M20 12C11.7 14.4 6 21 6 29.5 6 35 9.4 38 13.6 38c3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9zm22 0c-8.3 2.4-14 9-14 17.5 0 5.5 3.4 8.5 7.6 8.5 3.9 0 6.9-3 6.9-6.8 0-3.7-2.6-6.3-6.1-6.6.6-4 3.6-7.4 7.5-8.9z"/></svg>
+          <blockquote><p>“Their expert report made my insurance approval smooth and stress-free.”</p></blockquote>
+          <figcaption><span class="avatar">NP</span><span><strong>Neha P.</strong><span>Insurance Claim</span></span></figcaption>
+        </figure>
+      </div>
+      <div class="tcar-ctrl">
+        <button class="tbtn" type="button" data-dir="-1" aria-label="Previous testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+        <div class="tdots">
+          <button type="button" aria-label="Show testimonial 1"></button><button type="button" aria-label="Show testimonial 2"></button><button type="button" aria-label="Show testimonial 3"></button><button type="button" aria-label="Show testimonial 4"></button><button type="button" aria-label="Show testimonial 5"></button>
+        </div>
+        <button class="tbtn" type="button" data-dir="1" aria-label="Next testimonial"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLOG ================= -->
+<section class="blog" id="blog" data-nav="blog">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Health Insights</span>
+      <h2 class="h-sec" data-split>Medical Knowledge <em>&amp; Insights</em></h2>
+      <p class="lead reveal" style="--d:200ms">Expert articles, patient stories, and the latest in medical research to help you make informed healthcare decisions.</p>
+    </div>
+
+    <div class="blog-grid">
+      <a class="feature-post reveal" data-reveal="left" href="https://secondopinion24.com/blog/">
+        <span class="fp-art" aria-hidden="true">
+          <svg viewBox="0 0 600 520" preserveAspectRatio="xMidYMid slice">
+            <g class="gl"><path d="M0 60H600M0 120H600M0 180H600M0 240H600M0 300H600M0 360H600M0 420H600M0 480H600M60 0V520M120 0V520M180 0V520M240 0V520M300 0V520M360 0V520M420 0V520M480 0V520M540 0V520"/></g>
+            <circle class="ring" cx="430" cy="150" r="120"/><circle class="ring ring-s" cx="430" cy="150" r="160"/><circle class="ring" cx="430" cy="150" r="70"/>
+            <path class="beat-bg" d="M0 200 H200 L220 200 L238 140 L262 262 L282 120 L300 200 H380 L396 200 L410 170 L424 230 L436 200 H600"/>
+            <path class="beat" d="M0 200 H200 L220 200 L238 140 L262 262 L282 120 L300 200 H380 L396 200 L410 170 L424 230 L436 200 H600"/>
+          </svg>
+        </span>
+        <span class="fp-badge">Featured Article</span>
+        <h3>Why Getting a Second Opinion Could Save Your Life</h3>
+        <p>Studies show that up to 28% of initial diagnoses may be incorrect or incomplete. Learn why seeking a second opinion is one of the most important healthcare decisions you can make.</p>
+        <span class="byline"><span class="avatar">DR</span><span><strong>Dr. Robert Chen</strong>January 5, 2025</span></span>
+        <span class="tlink">Read Full Article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+
+      <div class="posts">
+        <a class="post reveal" style="--i:0" href="https://secondopinion24.com/blog/"><span class="post-tag">Cardiology</span><span class="post-title">Understanding Heart Disease: Prevention and Early Detection</span><span class="post-ex">Heart disease remains the leading cause of death worldwide. Learn about the latest prevention strategies and early warning signs.</span><span class="post-meta">Dr. Sarah Mitchell · Jan 3, 2025</span><span class="post-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="post reveal" style="--i:1" href="https://secondopinion24.com/blog/"><span class="post-tag">Neurology</span><span class="post-title">Advances in Neurological Treatment: What Patients Need to Know</span><span class="post-ex">From Parkinson's to epilepsy, discover the latest breakthroughs in neurological care and treatment options.</span><span class="post-meta">Dr. Emily Williams · Dec 28, 2025</span><span class="post-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="post reveal" style="--i:2" href="https://secondopinion24.com/blog/"><span class="post-tag">Patient Story</span><span class="post-title">How a Second Opinion Changed My Cancer Treatment</span><span class="post-ex">One patient's journey from an initial diagnosis to finding the right treatment plan with expert guidance.</span><span class="post-meta">Jennifer M. · Dec 20, 2025</span><span class="post-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="post reveal" style="--i:3" href="https://secondopinion24.com/blog/"><span class="post-tag">Oncology</span><span class="post-title">Immunotherapy: The Future of Cancer Treatment</span><span class="post-ex">Explore how immunotherapy is revolutionizing cancer care and offering new hope to patients worldwide.</span><span class="post-meta">Dr. Robert Chen · Dec 15, 2025</span><span class="post-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="post reveal" style="--i:4" href="https://secondopinion24.com/blog/"><span class="post-tag">Research</span><span class="post-title">AI in Medical Diagnosis: Promise and Limitations</span><span class="post-ex">How artificial intelligence is assisting doctors in diagnosis while maintaining the human touch in medicine.</span><span class="post-meta">James Patterson · Dec 10, 2025</span><span class="post-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+        <a class="post reveal" style="--i:5" href="https://secondopinion24.com/blog/"><span class="post-tag">Orthopedics</span><span class="post-title">Minimally Invasive Surgery: Faster Recovery, Better Outcomes</span><span class="post-ex">Modern surgical techniques are reducing recovery times and improving patient outcomes across many conditions.</span><span class="post-meta">Dr. Michael Kim · Dec 5, 2025</span><span class="post-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq" data-nav="faq">
+  <div class="container faq-grid">
+    <div class="faq-side">
+      <span class="eyebrow reveal">Help Center</span>
+      <h2 class="h-sec" data-split>Frequently Asked <em>Questions</em></h2>
+      <p class="lead reveal" style="--d:200ms">Find answers to common questions about our medical second opinion services, process, and policies.</p>
+      <div class="help reveal" style="--d:300ms">
+        <h3>Still Have Questions?</h3>
+        <p>Our support team is here to help. Reach out to us through any of these channels.</p>
+        <div class="help-links">
+          <a href="tel:+919867304372"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3l2 5-2 1a11 11 0 005 5l1-2 5 2v3a2 2 0 01-2 2h-1C9.716 19 5 14.284 5 8V7a2 2 0 01-2-2z"/></svg>+91 9867304372</a>
+          <a href="mailto:support@secondopinion24.com"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"/></svg>Email Support</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item open reveal" style="--i:0">
+        <h3><button class="faq-q" type="button" id="fq1" aria-expanded="true" aria-controls="fa1"><span class="faq-n">01</span><span>What is a medical second opinion?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa1" role="region" aria-labelledby="fq1"><div><p>A medical second opinion is an evaluation of your medical condition, diagnosis, and treatment plan by a specialist who was not involved in your initial care. It provides an independent perspective that can confirm your current diagnosis, suggest alternative treatments, or identify issues that may have been overlooked.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:1">
+        <h3><button class="faq-q" type="button" id="fq2" aria-expanded="false" aria-controls="fa2"><span class="faq-n">02</span><span>How long does it take to receive my second opinion?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa2" role="region" aria-labelledby="fq2"><div><p>Most second opinions are delivered within 24-48 hours after we receive all your medical records and documentation. For complex cases requiring multiple specialist reviews, it may take up to 5 business days. We also offer expedited services for urgent cases.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:2">
+        <h3><button class="faq-q" type="button" id="fq3" aria-expanded="false" aria-controls="fa3"><span class="faq-n">03</span><span>What medical records do I need to submit?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa3" role="region" aria-labelledby="fq3"><div><p>You should submit all relevant medical records including: your diagnosis and pathology reports, imaging studies (X-rays, CT scans, MRIs), laboratory test results, current medications list, treatment history, and physician notes. Our team will guide you through the process and help identify any additional documents needed.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:3">
+        <h3><button class="faq-q" type="button" id="fq4" aria-expanded="false" aria-controls="fa4"><span class="faq-n">04</span><span>Who are the specialists reviewing my case?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa4" role="region" aria-labelledby="fq4"><div><p>All our specialists are board-certified physicians from leading medical institutions including Mayo Clinic, Cleveland Clinic, Johns Hopkins, Stanford Health, and other top academic medical centers. They have extensive experience in their respective fields and are carefully vetted to ensure the highest quality of care.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:4">
+        <h3><button class="faq-q" type="button" id="fq5" aria-expanded="false" aria-controls="fa5"><span class="faq-n">05</span><span>Is my medical information kept confidential?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa5" role="region" aria-labelledby="fq5"><div><p>Absolutely. We are fully HIPAA compliant and use enterprise-grade encryption to protect all patient data. Your medical records are only shared with the specialist reviewing your case and are never sold or shared with third parties. We take your privacy extremely seriously.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:5">
+        <h3><button class="faq-q" type="button" id="fq6" aria-expanded="false" aria-controls="fa6"><span class="faq-n">06</span><span>How much does a second opinion cost?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa6" role="region" aria-labelledby="fq6"><div><p>Our pricing varies depending on the complexity of your case and the specialty required. Basic second opinions start at $299, while more complex cases involving multiple specialists may cost more. We provide transparent pricing upfront, and some insurance plans may cover part or all of the cost. Contact us for a personalized quote.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:6">
+        <h3><button class="faq-q" type="button" id="fq7" aria-expanded="false" aria-controls="fa7"><span class="faq-n">07</span><span>Can I speak directly with the specialist?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa7" role="region" aria-labelledby="fq7"><div><p>Yes, we offer optional video consultations with your reviewing specialist. This allows you to ask questions, discuss the findings in detail, and get personalized recommendations. Consultations can be scheduled after you receive your written report and are available for an additional fee.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:7">
+        <h3><button class="faq-q" type="button" id="fq8" aria-expanded="false" aria-controls="fa8"><span class="faq-n">08</span><span>What if the second opinion differs from my original diagnosis?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa8" role="region" aria-labelledby="fq8"><div><p>If our specialist's opinion differs from your original diagnosis, we encourage you to discuss both opinions with your primary care physician. The goal is to give you more information to make informed decisions. Our report will clearly explain any differences and provide recommendations for next steps.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:8">
+        <h3><button class="faq-q" type="button" id="fq9" aria-expanded="false" aria-controls="fa9"><span class="faq-n">09</span><span>Do you accept international patients?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa9" role="region" aria-labelledby="fq9"><div><p>Yes, we serve patients from over 40 countries worldwide. Our platform is designed to work seamlessly across borders. Medical records can be submitted in various languages, and our reports are provided in English with translation services available upon request.</p></div></div>
+      </div>
+      <div class="faq-item reveal" style="--i:9">
+        <h3><button class="faq-q" type="button" id="fq10" aria-expanded="false" aria-controls="fa10"><span class="faq-n">10</span><span>What medical specialties do you cover?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa10" role="region" aria-labelledby="fq10"><div><p>We offer second opinions across all major medical specialties including Oncology, Cardiology, Neurology, Orthopedics, Pathology, Radiology, Pediatrics, Ophthalmology, ENT, General Surgery, Internal Medicine, Pulmonology, and many more. If you don't see your specialty listed, please contact us.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="cta" data-nav="faq">
+  <div class="cta-panel">
+    <div class="cta-rings" aria-hidden="true"><i style="--s:420px;--dl:0s"></i><i style="--s:620px;--dl:-2s"></i><i style="--s:820px;--dl:-4s"></i></div>
+    <span class="cta-beam" aria-hidden="true"></span>
+    <span class="eyebrow reveal">Take the first step</span>
+    <h2 data-split>Ready to Get Your Second Opinion?</h2>
+    <p class="cta-text reveal" style="--d:250ms">Take the first step towards peace of mind. Our medical experts are ready to review your case and provide guidance you can trust.</p>
+    <div class="cta-buttons reveal" style="--d:400ms">
+      <a href="https://secondopinion24.com/register/" class="btn btn-white btn-lg magnetic"><span>Get Started Now</span><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+      <a href="#faq" class="btn btn-ghost btn-lg magnetic"><span>View FAQ</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact" data-nav="contact">
+  <div class="container contact-grid">
+    <div>
+      <span class="eyebrow reveal">Contact</span>
+      <h2 class="h-sec" data-split>Contact <em>us</em></h2>
+      <p class="lead reveal" style="--d:200ms">We'll be happy to offer our assistance with any inquiries</p>
+
+      <div class="contact-cards">
+        <div class="ccard email reveal" data-reveal="left" style="--i:0">
+          <span class="c-ico"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"/></svg></span>
+          <h3>Email us</h3>
+          <a href="mailto:support@secondopinion24.com">support@secondopinion24.com</a>
+        </div>
+        <div class="ccard phone reveal" data-reveal="left" style="--i:1">
+          <span class="c-ico"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3l2 5-2 1a11 11 0 005 5l1-2 5 2v3a2 2 0 01-2 2h-1C9.716 19 5 14.284 5 8V7a2 2 0 01-2-2z"/></svg></span>
+          <h3>Call us</h3>
+          <div class="phones">
+            <a href="tel:+919867304372"><b>Mr. Ganesh Kandalkar</b>– 9867304372</a>
+            <a href="tel:+919820901103"><b>Dr. Satyajeet Pattnaik</b>– 9820901103</a>
+            <a href="tel:+919321359955"><b>Dr. Pramod Nair</b>– 9321359955</a>
+            <a href="tel:+919967646537"><b>Dr. Kapil Rathi</b>– 9967646537</a>
+          </div>
+        </div>
+        <div class="ccard address reveal" data-reveal="left" style="--i:2">
+          <span class="c-ico"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 11a3 3 0 100-6 3 3 0 000 6z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 22s7-7.5 7-13a7 7 0 10-14 0c0 5.5 7 13 7 13z"/></svg></span>
+          <h3>Address</h3>
+          <p>Bandra West, Mumbai – 400050</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card reveal" data-reveal="right">
+      <h3>Send us a message</h3>
+      <form class="cform" id="contactForm" action="https://secondopinion24.com/#wpcf7-f397-p40-o1" method="post" novalidate aria-label="Contact form">
+        <input type="hidden" name="_wpcf7" value="397">
+        <input type="hidden" name="_wpcf7_version" value="6.1.6">
+        <input type="hidden" name="_wpcf7_locale" value="en_US">
+        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f397-p40-o1">
+        <input type="hidden" name="_wpcf7_container_post" value="40">
+        <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+        <input type="hidden" name="_wpcf7_ak_js" id="akJs" value="">
+        <div class="hp" aria-hidden="true"><label>Leave empty<textarea name="_wpcf7_ak_hp_textarea" tabindex="-1" autocomplete="off"></textarea></label></div>
+
+        <div class="field">
+          <label for="f-name">Your Full Name*</label>
+          <input id="f-name" name="full-name" type="text" autocomplete="name" maxlength="400" required aria-describedby="e-name">
+          <span class="err" id="e-name" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="f-phone">Your Phone Number*</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" maxlength="400" required aria-describedby="e-phone">
+          <span class="err" id="e-phone" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="f-email">Your Email Address*</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" maxlength="400" required aria-describedby="e-email">
+          <span class="err" id="e-email" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="f-subject">Subject*</label>
+          <input id="f-subject" name="subject" type="text" maxlength="400" required aria-describedby="e-subject">
+          <span class="err" id="e-subject" aria-live="polite"></span>
+        </div>
+        <div class="field full">
+          <label for="f-message">Message*</label>
+          <textarea id="f-message" name="message" maxlength="2000" required aria-describedby="e-message"></textarea>
+          <span class="err" id="e-message" aria-live="polite"></span>
+        </div>
+        <div class="field full">
+          <label class="consent"><input type="checkbox" name="privacy-consent" value="1" id="f-consent" required aria-describedby="e-consent"><span>I understand that my information will be handled in accordance with the <a href="https://secondopinion24.com/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
+          <span class="err" id="e-consent" aria-live="polite"></span>
+        </div>
+        <div class="submit-row full">
+          <button type="submit" class="btn btn-send btn-lg magnetic"><span>Send Message</span><span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><span class="spin" aria-hidden="true"></span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <svg class="footer-ecg" viewBox="0 0 1600 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 H520 L540 30 L556 8 L576 52 L592 16 L604 30 H1100 L1116 30 L1128 18 L1140 42 L1150 30 H1600"/></svg>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="#home" class="logo" aria-label="SecondOpinion24 Medical Experts — back to top">
+          <span class="logo-text"><span class="logo-main">SecondOpinion</span><span class="logo-24">24</span></span>
+          <span class="logo-tagline">Medical Experts</span>
+        </a>
+        <p class="footer-desc">Connecting patients with world-renowned medical specialists for expert second opinions. Your health decisions deserve the best guidance.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <nav class="flinks" aria-label="Quick links">
+          <a href="#home">Home</a>
+          <a href="#services">Our Services</a>
+          <a href="#about">About Us</a>
+          <a href="#blog">Blog</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Important Links</h4>
+        <nav class="flinks" aria-label="Important links">
+          <a href="https://secondopinion24.com/privacy-policy">Privacy Policy</a>
+          <a href="https://secondopinion24.com/terms-of-service">Terms of Service</a>
+          <a href="https://secondopinion24.com/hipaa-compliance">HIPAA Compliance</a>
+          <a href="https://secondopinion24.com/cookie-policy">Cookie Policy</a>
+          <a href="https://secondopinion24.com/refund-policy">Refund &amp; Cancellation Policy</a>
+          <a href="https://secondopinion24.com/disclaimer">Medical Disclaimer</a>
+          <a href="https://secondopinion24.com/data-security">Data Security</a>
+          <a href="#contact">Contact Us</a>
+        </nav>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <div class="fcontact">
+          <span><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 11a3 3 0 100-6 3 3 0 000 6z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 22s7-7.5 7-13a7 7 0 10-14 0c0 5.5 7 13 7 13z"/></svg><span>Bandra West<br>Mumbai - 400050</span></span>
+          <a href="tel:+919867304372"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3l2 5-2 1a11 11 0 005 5l1-2 5 2v3a2 2 0 01-2 2h-1C9.716 19 5 14.284 5 8V7a2 2 0 01-2-2z"/></svg>+91 9867304372</a>
+          <a href="mailto:support@secondopinion24.com"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"/></svg>support@secondopinion24.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SecondOpinion24. All rights reserved.</p>
+      <a href="#home" class="to-top">Back to top <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg></i></a>
+    </div>
+  </div>
+</footer>
+
+<div class="m-bar" role="region" aria-label="Quick actions" inert>
+  <a href="tel:+919867304372" class="m-call" aria-label="Call coordinator: +91 9867304372"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3l2 5-2 1a11 11 0 005 5l1-2 5 2v3a2 2 0 01-2 2h-1C9.716 19 5 14.284 5 8V7a2 2 0 01-2-2z"/></svg></a>
+  <a href="https://secondopinion24.com/register/" class="btn btn-primary m-cta"><span>Get Your Second Opinion Now</span></a>
+</div>
+
+
+</body>
+</html>
